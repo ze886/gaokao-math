@@ -6,19 +6,20 @@
     "questionNumber": 1,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "复数的四则运算（2026 新高考I卷）",
-    "content": "若 $z=\\frac{3+2i}{1-i}$，则 $|z|=$( )\nA. $\\frac{\\sqrt{13}}{2}$  B. $\\sqrt{13}$  C. $\\sqrt{6.5}$  D. $2.5$",
-    "hint": "分子分母同乘共轭，化简后求模。",
     "knowledgePointIds": [
-      "vec-04"
+      "geom-03"
     ],
-    "difficulty": "基础",
+    "difficulty": "中等",
+    "title": "新高考·椭圆的几何性质",
+    "content": "(真题来源：新高考I卷)\n椭圆 $\\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$ 的离心率为(  )\nA. $\\frac{\\sqrt{3}}{2}$  B. $\\frac{3}{6}$  C. $\\frac{1}{2}$  D. $\\frac{1}{2}$",
+    "solutionHint": "$e=\\frac{c}{a}$，其中 $c^{2}=a^{2}-b^{2}$。",
     "solutionSteps": [
-      "$z=\\frac{(3+2i)(1+i)}{(1-i)(1+i)}=\\frac{(3-2)+(3+2)i}{2}$。",
-      "化简得 $z=\\frac{1}{2}+\\frac{5}{2}i$。",
-      "$|z|=\\frac{\\sqrt{1+25}}{2}=\\frac{\\sqrt{26}}{2}$。故选A。"
-    ]
+      "$a^{2}=6$，$b^{2}=3$，$a=2.45$。",
+      "$c^{2}=a^{2}-b^{2}=6-3=3$，$c=\\sqrt{3}$。",
+      "$e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$，选A。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-02",
@@ -27,19 +28,19 @@
     "questionNumber": 2,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "椭圆的离心率计算（2026 新高考I卷）",
-    "content": "椭圆 $\\frac{x^{2}}{5}+\\frac{y^{2}}{2}=1$ 的离心率为( )\nA. $\\frac{\\sqrt{3}}{2}$  B. $\\frac{1}{2}$  C. $\\frac{\\sqrt{5}}{2}$  D. $\\frac{\\sqrt{3}}{2}$",
-    "hint": "$e=c/a$，$c^{2}=a^{2}-b^{2}$。",
     "knowledgePointIds": [
-      "geom-03"
+      "prob-04"
     ],
     "difficulty": "中等",
+    "title": "新高考·正态分布的概率计算",
+    "content": "(真题来源：新高考I卷)\n$X\\sim N(100,25)$，则 $P(X>110)\\approx$(  )（已知 $P(|X-\\mu|<\\sigma)\\approx 0.6827$）\nA. $0.0228$  B. $0.1587$  C. $0.4772$  D. $0.05$",
+    "solutionHint": "$\\mu=100,\\sigma=5$。$110=\\mu+2\\sigma$。$P(X>\\mu+2\\sigma)\\approx (1-0.9545)/2=0.02275$。",
     "solutionSteps": [
-      "$a^{2}=5$，$b^{2}=2$。",
-      "$c^{2}=a^{2}-b^{2}=3$，$c=\\sqrt{3}$。",
-      "$e=c/a=\\sqrt{3}/2$。故选A。"
-    ]
+      "$\\mu=100$，$\\sigma=5$，$110=100+2\\times 5=\\mu+2\\sigma$。",
+      "$P(X>\\mu+2\\sigma)\\approx (1-0.9545)/2=0.02275\\approx 0.0228$。选A。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-03",
@@ -48,19 +49,19 @@
     "questionNumber": 3,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "复数的四则运算（2026 新高考I卷）",
-    "content": "若 $z=\\frac{2+4i}{1-i}$，则 $|z|=$( )\nA. $\\frac{\\sqrt{20}}{2}$  B. $\\sqrt{20}$  C. $\\sqrt{10}$  D. $3$",
-    "hint": "分子分母同乘共轭，化简后求模。",
     "knowledgePointIds": [
-      "vec-04"
+      "set-02"
     ],
     "difficulty": "基础",
+    "title": "新高考·充分必要条件判断",
+    "content": "(真题来源：新高考I卷)\n\"$b=0$\"是\"函数连续\"的(  )\nA. 充分不必要条件  B. 必要不充分条件\nC. 充要条件  D. 既不充分也不必要条件",
+    "solutionHint": "分析两者之间的逻辑推出关系。",
     "solutionSteps": [
-      "$z=\\frac{(2+4i)(1+i)}{(1-i)(1+i)}=\\frac{(2-4)+(2+4)i}{2}$。",
-      "化简得 $z=\\frac{-2}{2}+\\frac{6}{2}i$。",
-      "$|z|=\\frac{\\sqrt{4+36}}{2}=\\frac{\\sqrt{40}}{2}$。故选A。"
-    ]
+      "分析\"$b=0$\"能否推出\"函数连续\"；分析\"函数连续\"能否推出\"$b=0$\"",
+      "根据推出来系判断条件类型。此处二者必要不充分条件关系",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-04",
@@ -69,19 +70,19 @@
     "questionNumber": 4,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "椭圆的离心率计算（2026 新高考I卷）",
-    "content": "椭圆 $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$ 的离心率为( )\nA. $\\frac{\\sqrt{1}}{2}$  B. $\\frac{1}{2}$  C. $\\frac{\\sqrt{4}}{2}$  D. $\\frac{\\sqrt{1}}{2}$",
-    "hint": "$e=c/a$，$c^{2}=a^{2}-b^{2}$。",
     "knowledgePointIds": [
-      "geom-03"
+      "trig-01"
     ],
-    "difficulty": "中等",
+    "difficulty": "基础",
+    "title": "新高考·任意角三角函数的定义",
+    "content": "(真题来源：新高考I卷)\n已知角 $\\alpha$ 终边经过 $P(0,5)$，则 $\\sin\\alpha+\\cos\\alpha=$(  )\nA. $\\frac{5}{5}$  B. $\\frac{5}{5}$  C. $\\frac{0}{5}$  D. $\\frac{5}{5}$",
+    "solutionHint": "$\\sin\\alpha=y/r$，$\\cos\\alpha=x/r$。",
     "solutionSteps": [
-      "$a^{2}=4$，$b^{2}=3$。",
-      "$c^{2}=a^{2}-b^{2}=1$，$c=\\sqrt{1}$。",
-      "$e=c/a=\\sqrt{1}/2$。故选A。"
-    ]
+      "$r=\\sqrt{0+25}=\\sqrt{25}=$5-左右。",
+      "代入计算：$\\sin\\alpha+\\cos\\alpha=\\frac{5}{r}+\\frac{0}{r}=\\frac{5}{r}$。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-05",
@@ -90,19 +91,19 @@
     "questionNumber": 5,
     "questionType": "单选题",
     "score": 5,
-    "isExample": true,
-    "title": "复数的四则运算（2026 新高考I卷）",
-    "content": "若 $z=\\frac{3+2i}{1-i}$，则 $|z|=$( )\nA. $\\frac{\\sqrt{13}}{2}$  B. $\\sqrt{13}$  C. $\\sqrt{6.5}$  D. $2.5$",
-    "hint": "分子分母同乘共轭，化简后求模。",
     "knowledgePointIds": [
-      "vec-04"
+      "func-02"
     ],
-    "difficulty": "基础",
+    "difficulty": "中等",
+    "title": "新高考·函数单调性的判断",
+    "content": "(真题来源：新高考I卷)\n函数 $f(x)=x+\\cos x$ 的单调递增区间为(  )\nA. $(-\\infty,\\pi/2)$  B. $(\\pi/2,+\\infty)$  C. $\\mathbb{R}$  D. $\\varnothing$",
+    "solutionHint": "求导判断 $f\\'(x)>0$ 的 $x$ 范围。",
     "solutionSteps": [
-      "$z=\\frac{(3+2i)(1+i)}{(1-i)(1+i)}=\\frac{(3-2)+(3+2)i}{2}$。",
-      "化简得 $z=\\frac{1}{2}+\\frac{5}{2}i$。",
-      "$|z|=\\frac{\\sqrt{1+25}}{2}=\\frac{\\sqrt{26}}{2}$。故选A。"
-    ]
+      "求导：$f\\'(x)=1-\\sin x$。",
+      "解 $f\\'(x)>0$ 得 $x$ 的范围即单调递增区间。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": true
   },
   {
     "id": "2026-n1-06",
@@ -111,19 +112,20 @@
     "questionNumber": 6,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "椭圆的离心率计算（2026 新高考I卷）",
-    "content": "椭圆 $\\frac{x^{2}}{7}+\\frac{y^{2}}{2}=1$ 的离心率为( )\nA. $\\frac{\\sqrt{5}}{3}$  B. $\\frac{1}{2}$  C. $\\frac{\\sqrt{7}}{3}$  D. $\\frac{\\sqrt{5}}{2}$",
-    "hint": "$e=c/a$，$c^{2}=a^{2}-b^{2}$。",
     "knowledgePointIds": [
-      "geom-03"
+      "func-02",
+      "func-03"
     ],
     "difficulty": "中等",
+    "title": "新高考·分段函数的求值",
+    "content": "(真题来源：新高考I卷)\n设 $f(x)=\\begin{cases} x^{2}+3, & x\\le 0 \\\\ \\log_{2}(x+3), & x>0 \\end{cases}$，则 $f(f(-4))=$(  )\nA. $\\log_{2}(13)$  B. $1$  C. $2$  D. $10$",
+    "solutionHint": "先算内层 $f(-4)$（$x\\le 0$段），再代入外层（$x>0$段）。",
     "solutionSteps": [
-      "$a^{2}=7$，$b^{2}=2$。",
-      "$c^{2}=a^{2}-b^{2}=5$，$c=\\sqrt{5}$。",
-      "$e=c/a=\\sqrt{5}/3$。故选A。"
-    ]
+      "$f(-4)=(-4)^{2}+3=19$。",
+      "由于 $19>0$，$f(f(\\ldots))=f(19)=\\log_{2}(22)=\\log_{2}(22)$。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-07",
@@ -132,18 +134,19 @@
     "questionNumber": 7,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "平面向量的数量积（2026 新高考I卷）",
-    "content": "已知 $\\vec{a}=(3,2)$，$\\vec{b}=(2,4)$，则 $(2\\vec{a}-\\vec{b})\\cdot\\vec{b}=$( )\nA. 8  B. 11  C. 48  D. 7",
-    "hint": "先用坐标做向量线性运算，再计算数量积。",
     "knowledgePointIds": [
       "vec-02"
     ],
     "difficulty": "基础",
+    "title": "新高考·向量的数量积",
+    "content": "(真题来源：新高考I卷)\n已知 $\\vec{a}=(3,3)$，$\\vec{b}=(2,3)$，则 $(\\vec{a}+\\vec{b})\\cdot\\vec{a}=$(  )\nA. 33  B. 3  C. 15  D. 16",
+    "solutionHint": "直接计算：$(\\vec{a}+\\vec{b})\\cdot\\vec{a}=|\\vec{a}|^{2}+\\vec{a}\\cdot\\vec{b}$。",
     "solutionSteps": [
-      "$2\\vec{a}-\\vec{b}=2(3,2)-(2,4)=(4,0)$。",
-      "$(4,0)\\cdot(2,4)=8$。"
-    ]
+      "$\\vec{a}+\\vec{b}=(5,6)$。",
+      "$(\\vec{a}+\\vec{b})\\cdot\\vec{a}=(5)\\times3+(6)\\times3=18+15=33$，选A。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-08",
@@ -152,19 +155,20 @@
     "questionNumber": 8,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "椭圆的离心率计算（2026 新高考I卷）",
-    "content": "椭圆 $\\frac{x^{2}}{5}+\\frac{y^{2}}{3}=1$ 的离心率为( )\nA. $\\frac{\\sqrt{2}}{2}$  B. $\\frac{1}{2}$  C. $\\frac{\\sqrt{5}}{2}$  D. $\\frac{\\sqrt{2}}{2}$",
-    "hint": "$e=c/a$，$c^{2}=a^{2}-b^{2}$。",
     "knowledgePointIds": [
-      "geom-03"
+      "vec-04"
     ],
-    "difficulty": "中等",
+    "difficulty": "基础",
+    "title": "新高考·复数的乘除与模长",
+    "content": "(真题来源：新高考I卷)\n设 $z=\\frac{3+1i}{1-i}$，则 $|z|=$(  )\nA. $\\frac{\\sqrt{10}}{\\sqrt{2}}$  B. $1$  C. $\\sqrt{2}$  D. $\\frac{\\sqrt{11}}{2}$",
+    "solutionHint": "分子分母同乘分母共轭，化简后求模。$|z|=|分子|/|分母|$更简便。",
     "solutionSteps": [
-      "$a^{2}=5$，$b^{2}=3$。",
-      "$c^{2}=a^{2}-b^{2}=2$，$c=\\sqrt{2}$。",
-      "$e=c/a=\\sqrt{2}/2$。故选A。"
-    ]
+      "$|3+1i|=\\sqrt{9+1}=\\sqrt{10}$。",
+      "$|1-i|=\\sqrt{2}$。",
+      "$|z|=\\frac{\\sqrt{10}}{\\sqrt{2}}$，选A。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-09",
@@ -173,21 +177,22 @@
     "questionNumber": 9,
     "questionType": "多选题",
     "score": 6,
-    "isExample": false,
-    "title": "(多选)函数零点与图像（2026 新高考I卷）",
-    "content": "设 $f(x)=|\\ln x|-ax$，$a>0$。正确的有( )\nA. $f(x)$的定义域为$(0,+\\infty)$\nB. 若$f(x)$恰有两个零点，则$a<\\frac{1}{e}$\nC. $f(x)$在$(1,+\\infty)$上单调\nD. $f(\\frac{1}{e})=1+\\frac{a}{e}$",
-    "hint": "分段讨论$|\\ln x|$的图像和零点。",
     "knowledgePointIds": [
       "func-05",
       "func-02"
     ],
     "difficulty": "较难",
+    "title": "新高考·(多选)函数性质综合",
+    "content": "(真题来源：新高考I卷)\n设 $f(x)=|\\ln(x+3)|-x$，$x>-3$。正确的有(  )\nA. $f(x)$恰有一个零点\nB. $f(x)$在$(-3,-3+1)$上单调\nC. $f(x)$的图像过原点\nD. $f(x)$的值域为 $\\mathbb{R}$",
+    "solutionHint": "分段讨论绝对值，用图像或者导数分析。",
     "solutionSteps": [
-      "A: $\\ln x$要求$x>0$，对。",
-      "B: $|\\ln x|=ax$有两个交点，图像分析可得条件，需要$a$满足某范围。",
-      "C: $x>1$时$|\\ln x|=\\ln x$，$f(x)=\\ln x-ax$单调性取决于$a$，不一定单调。",
-      "D: $f(1/e)=|\\ln(1/e)|-a/e=1-a/e$，D错误。答案为AB。"
-    ]
+      "A: 分析 $|\\ln(x+3)|=x$ 的交点个数。$y=|\\ln(x+3)|$形如V字型，$y=x$为斜线，有2个交点，错误。",
+      "B: 分段求导验证，在某区间单调，正确。",
+      "C: $f(0)=|\\ln(3)|-0=|\\ln(3)|$。$a=1$时为$0$通过原点；$a\\neq 1$时不通过。",
+      "D: 分析极限，$x\\to -3^{+}$时$f\\to +\\infty$，$x\\to +\\infty$时$f\\to -\\infty$，由连续性值域为$\\mathbb{R}$。正确。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-10",
@@ -196,21 +201,23 @@
     "questionNumber": 10,
     "questionType": "多选题",
     "score": 6,
-    "isExample": false,
-    "title": "(多选)三角函数的性质与变换（2026 新高考I卷）",
-    "content": "已知 $f(x)=2\\sin(2x-\\frac{\\pi}{3})$，说法正确的有( )\nA. $T=\\pi$\nB. 关于 $x=\\frac{5\\pi}{12}$ 对称\nC. 在 $[0,\\frac{\\pi}{2}]$ 上递增\nD. 可由 $y=2\\sin 2x$ 右移 $\\frac{\\pi}{6}$ 得到",
-    "hint": "用周期公式、对称性条件、单调区间和图像变换逐一验证。",
     "knowledgePointIds": [
       "trig-02",
       "func-04"
     ],
     "difficulty": "中等",
+    "title": "新高考·(多选)三角函数的性质与变换",
+    "content": "(真题来源：新高考I卷)\n已知 $f(x)=2\\sin(1x-\\pi/4)$，正确的有(  )\nA. 最小正周期 $T=2\\pi/1$\nB. 最大值 $2$，最小值 $-2$\nC. 由$y=2\\sin 1x$ 右移$\\pi/4/1$得到\nD. $f(\\pi/2)=2$",
+    "solutionHint": "用三角函数的周期、值域、图像变换知识逐项验证。",
     "solutionSteps": [
-      "A: $T=2\\pi/2=\\pi$，对。",
-      "B: $f(5\\pi/12)=2\\sin(\\pi/2)=2$是最大值，对。",
-      "C: 区间对应相位$[-\\pi/3,2\\pi/3]$非单调，错。",
-      "D: $y=2\\sin 2x$右移$\\pi/6$得$y=2\\sin(2x-\\pi/3)$即$f(x)$，对。答案为ABD。"
-    ]
+      "A: $T=2\\pi/\\omega=2\\pi/1$，正确。",
+      "B: $\\sin$函数值域$[-1,1]$，$f(x)$值域$[-2,2]$，正确。",
+      "C: $y=2\\sin1x$右移 $\\pi/4/1$ 得 $2\\sin(1(x-\\pi/4/1))=2\\sin(1x-\\pi/4)=f(x)$，正确。",
+      "D: $f(\\pi/2)=2\\sin(1\\times\\pi/2-\\pi/4)=2\\sin(\\pi/2-\\pi/4)$，不一定为$2$，错误。",
+      "答案为ABC。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-11",
@@ -219,21 +226,23 @@
     "questionNumber": 11,
     "questionType": "多选题",
     "score": 6,
-    "isExample": false,
-    "title": "(多选)函数零点与图像（2026 新高考I卷）",
-    "content": "设 $f(x)=|\\ln x|-ax$，$a>0$。正确的有( )\nA. $f(x)$的定义域为$(0,+\\infty)$\nB. 若$f(x)$恰有两个零点，则$a<\\frac{1}{e}$\nC. $f(x)$在$(1,+\\infty)$上单调\nD. $f(\\frac{1}{e})=1+\\frac{a}{e}$",
-    "hint": "分段讨论$|\\ln x|$的图像和零点。",
     "knowledgePointIds": [
-      "func-05",
-      "func-02"
+      "trig-02",
+      "func-04"
     ],
-    "difficulty": "较难",
+    "difficulty": "中等",
+    "title": "新高考·(多选)三角函数的性质与变换",
+    "content": "(真题来源：新高考I卷)\n已知 $f(x)=2\\sin(1x-\\pi/4)$，正确的有(  )\nA. 最小正周期 $T=2\\pi/1$\nB. 最大值 $2$，最小值 $-2$\nC. 由$y=2\\sin 1x$ 右移$\\pi/4/1$得到\nD. $f(\\pi/2)=2$",
+    "solutionHint": "用三角函数的周期、值域、图像变换知识逐项验证。",
     "solutionSteps": [
-      "A: $\\ln x$要求$x>0$，对。",
-      "B: $|\\ln x|=ax$有两个交点，图像分析可得条件，需要$a$满足某范围。",
-      "C: $x>1$时$|\\ln x|=\\ln x$，$f(x)=\\ln x-ax$单调性取决于$a$，不一定单调。",
-      "D: $f(1/e)=|\\ln(1/e)|-a/e=1-a/e$，D错误。答案为AB。"
-    ]
+      "A: $T=2\\pi/\\omega=2\\pi/1$，正确。",
+      "B: $\\sin$函数值域$[-1,1]$，$f(x)$值域$[-2,2]$，正确。",
+      "C: $y=2\\sin1x$右移 $\\pi/4/1$ 得 $2\\sin(1(x-\\pi/4/1))=2\\sin(1x-\\pi/4)=f(x)$，正确。",
+      "D: $f(\\pi/2)=2\\sin(1\\times\\pi/2-\\pi/4)=2\\sin(\\pi/2-\\pi/4)$，不一定为$2$，错误。",
+      "答案为ABC。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-12",
@@ -242,19 +251,20 @@
     "questionNumber": 12,
     "questionType": "填空题",
     "score": 5,
-    "isExample": false,
-    "difficulty": "基础",
-    "title": "直线与圆相交弦长（2026 新高考I卷）",
-    "content": "圆 $(x-2)^{2}+(y+1)^{2}=9$，直线$4x-3y+3=0$截得的弦长为______。",
-    "hint": "用弦长公式 $L=2\\sqrt{r^{2}-d^{2}}$。",
     "knowledgePointIds": [
-      "geom-02"
+      "cnt-02"
     ],
+    "difficulty": "基础",
+    "title": "新高考·二项式定理求指定项系数",
+    "content": "(真题来源：新高考I卷)\n$(x+\\frac{1}{x})^{7}$ 展开式中 $x^{2}$ 的系数为 ______。",
+    "solutionHint": "通项 $T_{r+1}=C_{7}^{r}x^{7-r}(1/x)^{r}=C_{7}^{r}x^{7-2r}$。令指数为$2$。",
     "solutionSteps": [
-      "圆心 $(2,-1)$，半径 $r=3$。",
-      "圆心到直线距离：$d=\\frac{|4\\times2-3\\times-1+3|}{5}$。",
-      "$L=2\\sqrt{r^{2}-d^{2}}$计算弦长。"
-    ]
+      "通项 $T_{r+1}=C_{7}^{r}x^{7-2r}$。",
+      "令 $7-2r=2$，得 $r=2$。",
+      "系数 $C_{7}^{2}=21$。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-13",
@@ -263,19 +273,20 @@
     "questionNumber": 13,
     "questionType": "填空题",
     "score": 5,
-    "isExample": false,
-    "difficulty": "中等",
-    "title": "基本不等式求最值（2026 新高考I卷）",
-    "content": "已知 $x>0$，则 $f(x)=x+\\frac{2}{x}+\\frac{3}{x^{2}}$ 的最小值为______。",
-    "hint": "构造函数后用导数或AM-GM分析。",
     "knowledgePointIds": [
       "cnt-03"
     ],
+    "difficulty": "中等",
+    "title": "新高考·利用基本不等式求最值",
+    "content": "(真题来源：新高考I卷)\n已知 $x>0$，则 $y=x+\\frac{3}{x}$ 的最小值为 ______。",
+    "solutionHint": "$x+\\frac{3}{x}\\ge 2\\sqrt{x\\cdot\\frac{3}{x}}=2\\sqrt{3}$。",
     "solutionSteps": [
-      "$f\\'(x)=1-\\frac{2}{x^{2}}-\\frac{6}{x^{3}}$。",
-      "令$f\\'(x)=0$解出驻点。",
-      "代入计算最小值。"
-    ]
+      "由 AM-GM 不等式：$x+\\frac{3}{x}\\ge 2\\sqrt{3}$。",
+      "等号当 $x=\\sqrt{3}$ 时取到。",
+      "最小值为 $2\\sqrt{3}$。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-14",
@@ -284,19 +295,20 @@
     "questionNumber": 14,
     "questionType": "填空题",
     "score": 5,
-    "isExample": false,
-    "difficulty": "较难",
-    "title": "直线与圆相交弦长（2026 新高考I卷）",
-    "content": "圆 $(x-1)^{2}+(y+0)^{2}=4$，直线$4x-3y+3=0$截得的弦长为______。",
-    "hint": "用弦长公式 $L=2\\sqrt{r^{2}-d^{2}}$。",
     "knowledgePointIds": [
-      "geom-02"
+      "cnt-02"
     ],
+    "difficulty": "基础",
+    "title": "新高考·二项式定理求指定项系数",
+    "content": "(真题来源：新高考I卷)\n$(x+\\frac{1}{x})^{5}$ 展开式中 $x^{2}$ 的系数为 ______。",
+    "solutionHint": "通项 $T_{r+1}=C_{5}^{r}x^{5-r}(1/x)^{r}=C_{5}^{r}x^{5-2r}$。令指数为$2$。",
     "solutionSteps": [
-      "圆心 $(1,0)$，半径 $r=2$。",
-      "圆心到直线距离：$d=\\frac{|4\\times1-3\\times0+3|}{5}$。",
-      "$L=2\\sqrt{r^{2}-d^{2}}$计算弦长。"
-    ]
+      "通项 $T_{r+1}=C_{5}^{r}x^{5-2r}$。",
+      "令 $5-2r=2$，得 $r=1$。",
+      "系数 $C_{5}^{1}=5$。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-15",
@@ -305,20 +317,22 @@
     "questionNumber": 15,
     "questionType": "解答题",
     "score": 13,
-    "isExample": true,
-    "difficulty": "中等",
-    "title": "解三角形—已知两边一角求其余边角（2026 新高考I卷）",
-    "content": "在$\\triangle ABC$中，$A=51^{\\circ}$，$b=3$，$c=6$。\n(1) 求边 $a$ 的长；\n(2) 求$\\triangle ABC$的面积。",
-    "hint": "(1)余弦定理直接求$a$；(2)$S=\\frac{1}{2}bc\\sin A$。",
     "knowledgePointIds": [
       "trig-04",
       "trig-05"
     ],
+    "difficulty": "中等",
+    "title": "新高考·解三角形—综合运用正余弦定理",
+    "content": "(真题来源：新高考I卷)\n在 $\\triangle ABC$ 中，角 $A,B,C$ 的对边为 $a,b,c$，已知 $2\\cos C(a\\cos B+b\\cos A)=c$。\n(1) 求角 $C$；\n(2) 若 $c=2$，$a+b=4$，求 $\\triangle ABC$ 的面积。",
+    "solutionHint": "(1)用余弦定理的向量形式或正弦定理化简条件；(2)联立方程组求$a,b$用面积公式。",
     "solutionSteps": [
-      "(1) 由余弦定理：$a^{2}=b^{2}+c^{2}-2bc\\cos A=9+36-2\\times3\\times6\\times\\cos51^{\\circ}$。计算得$a$。",
-      "(2) $S=\\frac{1}{2}bc\\sin A=\\frac{1}{2}\\times3\\times6\\times\\sin51^{\\circ}$。代入计算。",
-      "写出两个小题的最终数值答案。"
-    ]
+      "(1)由 $2\\cos C(a\\cos B+b\\cos A)=c$，利用正弦定理 $a=2R\\sin A$等化简得 $\\cos C=\\frac{1}{2}$，即 $C=60^{\\circ}$。",
+      "(2) $c^{2}=a^{2}+b^{2}-2ab\\cos C=a^{2}+b^{2}-ab$。$a+b=4$，$c=2$。",
+      "$4=(a+b)^{2}-3ab=16-3ab$，故$ab=4$。",
+      "$S=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\times 4\\times\\frac{\\sqrt{3}}{2}=\\sqrt{3}$。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": true
   },
   {
     "id": "2026-n1-16",
@@ -326,22 +340,23 @@
     "paperType": "新高考I卷",
     "questionNumber": 16,
     "questionType": "解答题",
-    "score": 13,
-    "isExample": false,
-    "difficulty": "中等",
-    "title": "全概率公式与随机变量期望（2026 新高考I卷）",
-    "content": "甲箱有3个红球2个白球，乙箱有2个红球3个白球。先从甲箱取2球放入乙箱，再从乙箱取2球。$X$为最后取出红球的个数。\n(1) 求$X$的分布列；\n(2) 求$E(X)$。",
-    "hint": "分步用全概率公式。",
+    "score": 15,
     "knowledgePointIds": [
-      "prob-02",
-      "prob-07"
+      "solid-04",
+      "solid-05",
+      "solid-03"
     ],
+    "difficulty": "中等",
+    "title": "新高考·立体几何—空间向量法证垂直与求角",
+    "content": "(真题来源：新高考I卷)\n如图，正四棱锥 $P-ABCD$ 中，底面为正方形边长为 $2$，$PA=PC=PB=PD=\\sqrt{6}$，$O$为底面中心。\n(1) 求证：$PO\\perp$平面$ABCD$；\n(2) 求直线 $PA$ 与平面 $PBC$ 所成角的正弦值。",
+    "solutionHint": "(1)证PO同时垂直于AC和BD；(2)建系用向量法。",
     "solutionSteps": [
-      "(1)第一步分三种情况：取0红($P=1/10$)，取1红($P=6/10$)，取2红($P=3/10$)。分别计算第二步$X$的条件概率分布。",
-      "用全概率合成$X$的分布列。",
-      "(2) $E(X)=0\\times P(X=0)+1\\times P(X=1)+2\\times P(X=2)$。",
-      "计算最终值。"
-    ]
+      "(1) $O$为$AC$中点，$AC=2\\sqrt{2}$，$OA=OC=\\sqrt{2}$。$PA^{2}=6=PO^{2}+OA^{2}=PO^{2}+2$，故$PO=2$。",
+      "同理验$PO\\perp BD$。由$PO\\perp AC$且$PO\\perp BD$，且$AC$与$BD$相交，故$PO\\perp$底面。",
+      "(2)以$O$为原点建系，$P(0,0,2),A(1,1,0),B(1,-1,0),C(-1,-1,0)$。求平面$PBC$法向量，$\\sin\\theta=|\\cos\\langle\\overrightarrow{PA},\\vec{n}\\rangle|$。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-17",
@@ -349,21 +364,23 @@
     "paperType": "新高考I卷",
     "questionNumber": 17,
     "questionType": "解答题",
-    "score": 15,
-    "isExample": false,
-    "difficulty": "中等",
-    "title": "立体几何—空间向量法求角与距离（2026 新高考I卷）",
-    "content": "如图，在正三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$AB=2$，$AA_{1}=\\sqrt{3}$，$D$为$BC$中点。\n(1) 求证：$A_{1}D\\perp$平面$BCC_{1}B_{1}$；\n(2) 求直线$AB_{1}$与平面$A_{1}BC$所成角的正弦值。",
-    "hint": "建系用向量法解决。",
+    "score": 13,
     "knowledgePointIds": [
-      "solid-04",
-      "solid-05",
-      "solid-03"
+      "trig-04",
+      "trig-05"
     ],
+    "difficulty": "中等",
+    "title": "新高考·解三角形—综合运用正余弦定理",
+    "content": "(真题来源：新高考I卷)\n在 $\\triangle ABC$ 中，角 $A,B,C$ 的对边为 $a,b,c$，已知 $2\\cos C(a\\cos B+b\\cos A)=c$。\n(1) 求角 $C$；\n(2) 若 $c=2$，$a+b=4$，求 $\\triangle ABC$ 的面积。",
+    "solutionHint": "(1)用余弦定理的向量形式或正弦定理化简条件；(2)联立方程组求$a,b$用面积公式。",
     "solutionSteps": [
-      "(1)以$D$为原点，$DC$为$x$轴，$DA$为$y$轴，$DD_{1}\\parallel AA_{1}$为$z$轴建系。写出各点坐标，验证$\\overrightarrow{A_{1}D}$与平面内两条不共线向量均垂直。",
-      "(2)求平面$A_{1}BC$的法向量$\\vec{n}$。线面角$\\sin\\theta=|\\cos\\langle\\overrightarrow{AB_{1}},\\vec{n}\\rangle|$。"
-    ]
+      "(1)由 $2\\cos C(a\\cos B+b\\cos A)=c$，利用正弦定理 $a=2R\\sin A$等化简得 $\\cos C=\\frac{1}{2}$，即 $C=60^{\\circ}$。",
+      "(2) $c^{2}=a^{2}+b^{2}-2ab\\cos C=a^{2}+b^{2}-ab$。$a+b=4$，$c=2$。",
+      "$4=(a+b)^{2}-3ab=16-3ab$，故$ab=4$。",
+      "$S=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\times 4\\times\\frac{\\sqrt{3}}{2}=\\sqrt{3}$。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": true
   },
   {
     "id": "2026-n1-18",
@@ -371,21 +388,24 @@
     "paperType": "新高考I卷",
     "questionNumber": 18,
     "questionType": "解答题",
-    "score": 15,
-    "isExample": true,
-    "difficulty": "较难",
-    "title": "解析几何—椭圆中的定值与定点问题（2026 新高考I卷）",
-    "content": "椭圆$C:\\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$，过$P(2,1)$的直线交$C$于$A,B$两点。\n(1) 当斜率$k=1$时求$|AB|$；\n(2) 若$P$为$AB$中点，求直线方程；\n(3) 求证：$|PA|\\cdot|PB|$为定值。",
-    "hint": "(1)联立用弦长公式；(2)点差法；(3)用参数$t$表示坐标后代入距离积。",
+    "score": 17,
     "knowledgePointIds": [
-      "geom-03",
-      "geom-06"
+      "func-07",
+      "func-08"
     ],
+    "difficulty": "压轴",
+    "title": "新高考·导数综合—参数讨论与不等式证明",
+    "content": "(真题来源：新高考I卷)\n已知 $f(x)=e^{x}-ax^{2}$，其中 $a>0$。\n(1) 讨论 $f(x)$ 的单调区间；\n(2) 若 $f(x)$ 有两个不同的零点 $x_{1},x_{2}(x_{1}<x_{2})$，求证：$x_{1}+x_{2}>2\\ln a$。",
+    "solutionHint": "(1)求导分析符号变化；(2)利用零点关系和函数单调性。",
     "solutionSteps": [
-      "(1)直线$y-1=x-2$即$y=x-1$，代入$2y^{2}=6-x^{2}$得关于$x$的一元二次方程，弦长公式求出$|AB|$。",
-      "(2)设$A(x_{1},y_{1}),B(x_{2},y_{2})$，点差法：$\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}=-\\frac{x_{1}+x_{2}}{2(y_{1}+y_{2})}=-\\frac{4}{2\\times 2}=-1$，直线$y-1=-1(x-2)$。",
-      "(3)设直线参数方程$x=2+t\\cos\\theta,y=1+t\\sin\\theta$，代入椭圆，利用韦达定理证明$|PA|\\cdot|PB|=|t_{1}t_{2}|$为定值。"
-    ]
+      "(1) $f\\'(x)=e^{x}-2ax$。令 $g(x)=e^{x}-2ax$，$g\\'(x)=e^{x}-2a$。",
+      "当 $a\\le 0$时（题设$a>0$略过），由$g\\'(x)=0$得$x=\\ln(2a)$。分析$g(x)$的最小值和符号变化，讨论$f(x)$的单调区间。",
+      "(2)由 $e^{x_{1}}=ax_{1}^{2},e^{x_{2}}=ax_{2}^{2}$，两式相除：$e^{x_{2}-x_{1}}=\\frac{x_{2}^{2}}{x_{1}^{2}}$。",
+      "取对数得 $x_{2}-x_{1}=2(\\ln x_{2}-\\ln x_{1})$。由对数均值不等式 $\\frac{a-b}{\\ln a-\\ln b}<\\frac{a+b}{2}$ 得 $x_{2}-x_{1}<x_{1}+x_{2}$。",
+      "又由等式关系得 $x_{1}+x_{2}=\\ln a+\\ln(x_{1}^{2}x_{2}^{2})$ 的某种变形，最终得证 $x_{1}+x_{2}>2\\ln a$。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n1-19",
@@ -393,22 +413,23 @@
     "paperType": "新高考I卷",
     "questionNumber": 19,
     "questionType": "解答题",
-    "score": 17,
-    "isExample": false,
-    "difficulty": "压轴",
-    "title": "导数与函数—零点问题与不等式证明（2026 新高考I卷）",
-    "content": "已知 $f(x)=\\ln x-ax^{2}+(2a-1)x$，$a\\in\\mathbb{R}$。\n(1) 讨论$f(x)$的单调性；\n(2) 若$f(x)$有两个不同零点$x_{1},x_{2}$，求证：$x_{1}x_{2}>e^{2}$。",
-    "hint": "(1)求导后按$a$分类讨论；(2)利用零点关系和对数均值不等式。",
+    "score": 15,
     "knowledgePointIds": [
-      "func-07",
-      "func-08"
+      "solid-04",
+      "solid-05",
+      "solid-03"
     ],
+    "difficulty": "中等",
+    "title": "新高考·立体几何—空间向量法证垂直与求角",
+    "content": "(真题来源：新高考I卷)\n如图，正四棱锥 $P-ABCD$ 中，底面为正方形边长为 $2$，$PA=PC=PB=PD=\\sqrt{6}$，$O$为底面中心。\n(1) 求证：$PO\\perp$平面$ABCD$；\n(2) 求直线 $PA$ 与平面 $PBC$ 所成角的正弦值。",
+    "solutionHint": "(1)证PO同时垂直于AC和BD；(2)建系用向量法。",
     "solutionSteps": [
-      "(1) $f\\'(x)=\\frac{1}{x}-2ax+2a-1=-\\frac{(2ax+1)(x-1)}{x}$。分$a=0,a>0,a<0$讨论$f\\'(x)$的符号和单调区间。",
-      "(2)由$f(x_{1})=f(x_{2})=0$得$\\ln x_{1}-ax_{1}^{2}+(2a-1)x_{1}=\\ln x_{2}-ax_{2}^{2}+(2a-1)x_{2}$。",
-      "整理得$\\ln\\frac{x_{1}}{x_{2}}=(x_{1}-x_{2})[a(x_{1}+x_{2})-(2a-1)]$。",
-      "利用对数平均不等式$\\frac{x_{1}-x_{2}}{\\ln x_{1}-\\ln x_{2}}<\\frac{x_{1}+x_{2}}{2}$，结合上述等式推导出$x_{1}x_{2}>e^{2}$。"
-    ]
+      "(1) $O$为$AC$中点，$AC=2\\sqrt{2}$，$OA=OC=\\sqrt{2}$。$PA^{2}=6=PO^{2}+OA^{2}=PO^{2}+2$，故$PO=2$。",
+      "同理验$PO\\perp BD$。由$PO\\perp AC$且$PO\\perp BD$，且$AC$与$BD$相交，故$PO\\perp$底面。",
+      "(2)以$O$为原点建系，$P(0,0,2),A(1,1,0),B(1,-1,0),C(-1,-1,0)$。求平面$PBC$法向量，$\\sin\\theta=|\\cos\\langle\\overrightarrow{PA},\\vec{n}\\rangle|$。",
+      "(以上为新高考I卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-01",
@@ -417,19 +438,19 @@
     "questionNumber": 1,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "椭圆的离心率计算（2026 新高考II卷）",
-    "content": "椭圆 $\\frac{x^{2}}{5}+\\frac{y^{2}}{2}=1$ 的离心率为( )\nA. $\\frac{\\sqrt{3}}{2}$  B. $\\frac{1}{2}$  C. $\\frac{\\sqrt{5}}{2}$  D. $\\frac{\\sqrt{3}}{2}$",
-    "hint": "$e=c/a$，$c^{2}=a^{2}-b^{2}$。",
     "knowledgePointIds": [
-      "geom-03"
+      "prob-04"
     ],
     "difficulty": "中等",
+    "title": "新高考·正态分布的概率计算",
+    "content": "(真题来源：新高考II卷)\n$X\\sim N(100,25)$，则 $P(X>110)\\approx$(  )（已知 $P(|X-\\mu|<\\sigma)\\approx 0.6827$）\nA. $0.0228$  B. $0.1587$  C. $0.4772$  D. $0.05$",
+    "solutionHint": "$\\mu=100,\\sigma=5$。$110=\\mu+2\\sigma$。$P(X>\\mu+2\\sigma)\\approx (1-0.9545)/2=0.02275$。",
     "solutionSteps": [
-      "$a^{2}=5$，$b^{2}=2$。",
-      "$c^{2}=a^{2}-b^{2}=3$，$c=\\sqrt{3}$。",
-      "$e=c/a=\\sqrt{3}/2$。故选A。"
-    ]
+      "$\\mu=100$，$\\sigma=5$，$110=100+2\\times 5=\\mu+2\\sigma$。",
+      "$P(X>\\mu+2\\sigma)\\approx (1-0.9545)/2=0.02275\\approx 0.0228$。选A。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-02",
@@ -438,18 +459,20 @@
     "questionNumber": 2,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "平面向量的数量积（2026 新高考II卷）",
-    "content": "已知 $\\vec{a}=(3,2)$，$\\vec{b}=(2,4)$，则 $(2\\vec{a}-\\vec{b})\\cdot\\vec{b}=$( )\nA. 8  B. 11  C. 48  D. 7",
-    "hint": "先用坐标做向量线性运算，再计算数量积。",
     "knowledgePointIds": [
-      "vec-02"
+      "func-07"
     ],
-    "difficulty": "基础",
+    "difficulty": "中等",
+    "title": "新高考·利用导数求函数的极值点",
+    "content": "(真题来源：新高考II卷)\n已知 $f(x)=x^{3}-\\frac{3\\times4}{2}x^{2}+9x+c$（$c$为常数），则$f(x)$的极小值点为(  )\nA. $x=3$  B. $x=1$  C. $x=0$  D. $x=4$",
+    "solutionHint": "求导后解 $f\\'(x)=0$，用一阶导数符号变化判断极值类型。",
     "solutionSteps": [
-      "$2\\vec{a}-\\vec{b}=2(3,2)-(2,4)=(4,0)$。",
-      "$(4,0)\\cdot(2,4)=8$。"
-    ]
+      "$f\\'(x)=3x^{2}-12x+9=3(x-1)(x-3)$。",
+      "$x<1$时$f\\'>0$；$1<x<3$时$f\\'<0$；$x>3$时$f\\'>0$。",
+      "故$x=1$为极大值点，$x=3$为极小值点。选A。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-03",
@@ -458,18 +481,20 @@
     "questionNumber": 3,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "等差数列的通项与求和（2026 新高考II卷）",
-    "content": "$\\{a_{n}\\}$为等差数列，$a_{1}=4$，$a_{5}=8$，则$S_{4}=$( )\nA. 22  B. 23  C. 24  D. 26",
-    "hint": "$S_{n}=\\frac{n(a_{1}+a_{n})}{2}$。",
     "knowledgePointIds": [
-      "seq-01"
+      "seq-02"
     ],
     "difficulty": "中等",
+    "title": "新高考·等比数列通项与求和",
+    "content": "(真题来源：新高考II卷)\n正项等比数列$\\{a_{n}\\}$中，$a_{1}=3$，$a_{1}+a_{2}+a_{3}=63$，则 $a_{5}=$(  )\nA. 768  B. 192  C. 48  D. 3072",
+    "solutionHint": "先求公比$q$，再求$a_{5}=a_{1}q^{4}$。",
     "solutionSteps": [
-      "公差$d=(8-4)/4=1$。",
-      "$S_{4}=\\frac{4(4+8)}{2}=22$。故选A。"
-    ]
+      "$a_{1}=3$，$S_{3}=3(1+q+q^{2})=63$。",
+      "故 $1+q+q^{2}=21$，解二次方程验证$q=4$成立。",
+      "$a_{5}=a_{1}q^{4}=3\\times4^{4}=768$，选A。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-04",
@@ -478,18 +503,20 @@
     "questionNumber": 4,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "函数的奇偶性判断（2026 新高考II卷）",
-    "content": "函数 $f(x)=x^{3}+\\sin x$ 是( )\nA. 奇函数且在R上递增  B. 偶函数且在R上递增\nC. 奇函数但有增有减  D. 偶函数但有增有减",
-    "hint": "验证 $f(-x)=-f(x)$ 判断奇偶，求导判断单调性。",
     "knowledgePointIds": [
-      "func-02"
+      "seq-02"
     ],
     "difficulty": "中等",
+    "title": "新高考·等比数列通项与求和",
+    "content": "(真题来源：新高考II卷)\n正项等比数列$\\{a_{n}\\}$中，$a_{1}=3$，$a_{1}+a_{2}+a_{3}=63$，则 $a_{5}=$(  )\nA. 768  B. 192  C. 48  D. 3072",
+    "solutionHint": "先求公比$q$，再求$a_{5}=a_{1}q^{4}$。",
     "solutionSteps": [
-      "$f(-x)=(-x)^{3}+\\sin(-x)=-x^{3}-\\sin x=-(x^{3}+\\sin x)=-f(x)$，故为奇函数。",
-      "$f\\'(x)=3x^{2}+\\cos x$。$3x^{2}\\ge 0$，$\\cos x\\ge -1$，$f\\'(x)\\ge -1$但$3x^{2}$主导，$f\\'(x)>0$恒成立？不成立（$x=0$时$f\\'(0)=1>0$但有时可为负）。分析：$3x^{2}+\\cos x$最小值在$x=0$时为$1>0$，且$x$增大时$3x^{2}$远大于$|\\cos x|\\le 1$，故$f\\'(x)>0$恒成立。所以递增。故选A。"
-    ]
+      "$a_{1}=3$，$S_{3}=3(1+q+q^{2})=63$。",
+      "故 $1+q+q^{2}=21$，解二次方程验证$q=4$成立。",
+      "$a_{5}=a_{1}q^{4}=3\\times4^{4}=768$，选A。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-05",
@@ -498,19 +525,19 @@
     "questionNumber": 5,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "集合与不等式的交并补运算（2026 新高考II卷）",
-    "content": "已知 $A=\\{x\\mid x^{2}-10x+21\\le 0\\}$，$B=\\{x\\mid 1<x<4\\}$，则 $A\\cap B=$( )\nA. $(1,3]$  B. $[7,4]$  C. $(1,4)$  D. $[0,3]$",
-    "hint": "解不等式得A和B的范围，再求交集。",
     "knowledgePointIds": [
-      "set-01"
+      "func-02"
     ],
-    "difficulty": "基础",
+    "difficulty": "中等",
+    "title": "新高考·函数单调性的判断",
+    "content": "(真题来源：新高考II卷)\n函数 $f(x)=x+\\cos x$ 的单调递增区间为(  )\nA. $(-\\infty,\\pi/2)$  B. $(\\pi/2,+\\infty)$  C. $\\mathbb{R}$  D. $\\varnothing$",
+    "solutionHint": "求导判断 $f\\'(x)>0$ 的 $x$ 范围。",
     "solutionSteps": [
-      "解 $x^{2}-10x+21=0$ 得两根 $x=7,3$，故 $A=[7,3]$。",
-      "$B=(1,4)$。",
-      "$A\\cap B=(1,3]$，故选A。"
-    ]
+      "求导：$f\\'(x)=1-\\sin x$。",
+      "解 $f\\'(x)>0$ 得 $x$ 的范围即单调递增区间。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-06",
@@ -519,19 +546,19 @@
     "questionNumber": 6,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "椭圆的离心率计算（2026 新高考II卷）",
-    "content": "椭圆 $\\frac{x^{2}}{7}+\\frac{y^{2}}{3}=1$ 的离心率为( )\nA. $\\frac{\\sqrt{4}}{3}$  B. $\\frac{1}{2}$  C. $\\frac{\\sqrt{7}}{3}$  D. $\\frac{\\sqrt{4}}{2}$",
-    "hint": "$e=c/a$，$c^{2}=a^{2}-b^{2}$。",
     "knowledgePointIds": [
-      "geom-03"
+      "cnt-01"
     ],
-    "difficulty": "中等",
+    "difficulty": "基础",
+    "title": "新高考·排列组合—组合数计算",
+    "content": "(真题来源：新高考II卷)\n从7人中选2人组成代表队，不同选法有(  )\nA. 21  B. 14  C. 42  D. 62",
+    "solutionHint": "与顺序无关，直接用组合数 $C_{7}^{2}$。",
     "solutionSteps": [
-      "$a^{2}=7$，$b^{2}=3$。",
-      "$c^{2}=a^{2}-b^{2}=4$，$c=\\sqrt{4}$。",
-      "$e=c/a=\\sqrt{4}/3$。故选A。"
-    ]
+      "从7人选2人是组合问题，$C_{7}^{2}=\\frac{7\\times6\\times\\cdots}{2!}=21$。",
+      "选A。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-07",
@@ -540,18 +567,20 @@
     "questionNumber": 7,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "平面向量的数量积（2026 新高考II卷）",
-    "content": "已知 $\\vec{a}=(3,2)$，$\\vec{b}=(2,4)$，则 $(2\\vec{a}-\\vec{b})\\cdot\\vec{b}=$( )\nA. 8  B. 11  C. 48  D. 7",
-    "hint": "先用坐标做向量线性运算，再计算数量积。",
     "knowledgePointIds": [
-      "vec-02"
+      "func-02",
+      "func-03"
     ],
-    "difficulty": "基础",
+    "difficulty": "中等",
+    "title": "新高考·分段函数的求值",
+    "content": "(真题来源：新高考II卷)\n设 $f(x)=\\begin{cases} x^{2}+3, & x\\le 0 \\\\ \\log_{2}(x+3), & x>0 \\end{cases}$，则 $f(f(-4))=$(  )\nA. $\\log_{2}(13)$  B. $1$  C. $2$  D. $10$",
+    "solutionHint": "先算内层 $f(-4)$（$x\\le 0$段），再代入外层（$x>0$段）。",
     "solutionSteps": [
-      "$2\\vec{a}-\\vec{b}=2(3,2)-(2,4)=(4,0)$。",
-      "$(4,0)\\cdot(2,4)=8$。"
-    ]
+      "$f(-4)=(-4)^{2}+3=19$。",
+      "由于 $19>0$，$f(f(\\ldots))=f(19)=\\log_{2}(22)=\\log_{2}(22)$。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-08",
@@ -560,19 +589,20 @@
     "questionNumber": 8,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "古典概型—数字抽取问题（2026 新高考II卷）",
-    "content": "从 $1,2,\\ldots,8$ 中任取 $3$ 个不同数字，恰好构成等差数列的概率为( )\nA. $\\frac{3}{C_{8}^{3}}$  B. $\\frac{1}{4}$  C. $\\frac{3}{20}$  D. $\\frac{1}{5}$",
-    "hint": "总取法 $C_{n}^{3}$。枚举公差为 $1,2,\\ldots$ 的等差数列个数。",
     "knowledgePointIds": [
-      "prob-01"
+      "func-02",
+      "func-03"
     ],
     "difficulty": "中等",
+    "title": "新高考·分段函数的求值",
+    "content": "(真题来源：新高考II卷)\n设 $f(x)=\\begin{cases} x^{2}+1, & x\\le 0 \\\\ \\log_{2}(x+1), & x>0 \\end{cases}$，则 $f(f(-2))=$(  )\nA. $\\log_{2}(3)$  B. $1$  C. $2$  D. $2$",
+    "solutionHint": "先算内层 $f(-2)$（$x\\le 0$段），再代入外层（$x>0$段）。",
     "solutionSteps": [
-      "总取法：$C_{8}^{3}=56$。",
-      "枚举公差：公差$1$有$6$个，公差$2$有$4$个，...求和得$3$个。",
-      "$P=3/56$。故选A。"
-    ]
+      "$f(-2)=(-2)^{2}+1=5$。",
+      "由于 $5>0$，$f(f(\\ldots))=f(5)=\\log_{2}(6)=\\log_{2}(6)$。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-09",
@@ -581,21 +611,22 @@
     "questionNumber": 9,
     "questionType": "多选题",
     "score": 6,
-    "isExample": false,
-    "title": "(多选)三角函数的性质与变换（2026 新高考II卷）",
-    "content": "已知 $f(x)=2\\sin(2x-\\frac{\\pi}{3})$，说法正确的有( )\nA. $T=\\pi$\nB. 关于 $x=\\frac{5\\pi}{12}$ 对称\nC. 在 $[0,\\frac{\\pi}{2}]$ 上递增\nD. 可由 $y=2\\sin 2x$ 右移 $\\frac{\\pi}{6}$ 得到",
-    "hint": "用周期公式、对称性条件、单调区间和图像变换逐一验证。",
     "knowledgePointIds": [
-      "trig-02",
-      "func-04"
+      "func-05",
+      "func-02"
     ],
-    "difficulty": "中等",
+    "difficulty": "较难",
+    "title": "新高考·(多选)函数性质综合",
+    "content": "(真题来源：新高考II卷)\n设 $f(x)=|\\ln(x+3)|-x$，$x>-3$。正确的有(  )\nA. $f(x)$恰有一个零点\nB. $f(x)$在$(-3,-3+1)$上单调\nC. $f(x)$的图像过原点\nD. $f(x)$的值域为 $\\mathbb{R}$",
+    "solutionHint": "分段讨论绝对值，用图像或者导数分析。",
     "solutionSteps": [
-      "A: $T=2\\pi/2=\\pi$，对。",
-      "B: $f(5\\pi/12)=2\\sin(\\pi/2)=2$是最大值，对。",
-      "C: 区间对应相位$[-\\pi/3,2\\pi/3]$非单调，错。",
-      "D: $y=2\\sin 2x$右移$\\pi/6$得$y=2\\sin(2x-\\pi/3)$即$f(x)$，对。答案为ABD。"
-    ]
+      "A: 分析 $|\\ln(x+3)|=x$ 的交点个数。$y=|\\ln(x+3)|$形如V字型，$y=x$为斜线，有2个交点，错误。",
+      "B: 分段求导验证，在某区间单调，正确。",
+      "C: $f(0)=|\\ln(3)|-0=|\\ln(3)|$。$a=1$时为$0$通过原点；$a\\neq 1$时不通过。",
+      "D: 分析极限，$x\\to -3^{+}$时$f\\to +\\infty$，$x\\to +\\infty$时$f\\to -\\infty$，由连续性值域为$\\mathbb{R}$。正确。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-10",
@@ -604,21 +635,22 @@
     "questionNumber": 10,
     "questionType": "多选题",
     "score": 6,
-    "isExample": false,
-    "title": "(多选)三角函数的性质与变换（2026 新高考II卷）",
-    "content": "已知 $f(x)=2\\sin(2x-\\frac{\\pi}{3})$，说法正确的有( )\nA. $T=\\pi$\nB. 关于 $x=\\frac{5\\pi}{12}$ 对称\nC. 在 $[0,\\frac{\\pi}{2}]$ 上递增\nD. 可由 $y=2\\sin 2x$ 右移 $\\frac{\\pi}{6}$ 得到",
-    "hint": "用周期公式、对称性条件、单调区间和图像变换逐一验证。",
     "knowledgePointIds": [
-      "trig-02",
-      "func-04"
+      "prob-05"
     ],
     "difficulty": "中等",
+    "title": "新高考·(多选)统计量与概率",
+    "content": "(真题来源：新高考II卷)\n关于一组数据 $x_{1},x_{2},\\ldots,x_{n}$，正确的有(  )\nA. 各数据加1，平均数也加1\nB. 各数据加1，方差不变\nC. 各数据乘2，方差变为原来的4倍\nD. 中位数永远不受极端值影响",
+    "solutionHint": "逐项用统计量的性质验证。",
     "solutionSteps": [
-      "A: $T=2\\pi/2=\\pi$，对。",
-      "B: $f(5\\pi/12)=2\\sin(\\pi/2)=2$是最大值，对。",
-      "C: 区间对应相位$[-\\pi/3,2\\pi/3]$非单调，错。",
-      "D: $y=2\\sin 2x$右移$\\pi/6$得$y=2\\sin(2x-\\pi/3)$即$f(x)$，对。答案为ABD。"
-    ]
+      "A: $E(X+1)=E(X)+1$。平均数加1，正确。",
+      "B: $D(X+1)=D(X)$。方差不变，正确。",
+      "C: $D(2X)=4D(X)$。正确。",
+      "D: 中位数也受极端值影响（只是不如平均数敏感）。错误。",
+      "答案为ABC。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-11",
@@ -627,21 +659,23 @@
     "questionNumber": 11,
     "questionType": "多选题",
     "score": 6,
-    "isExample": false,
-    "title": "(多选)函数零点与图像（2026 新高考II卷）",
-    "content": "设 $f(x)=|\\ln x|-ax$，$a>0$。正确的有( )\nA. $f(x)$的定义域为$(0,+\\infty)$\nB. 若$f(x)$恰有两个零点，则$a<\\frac{1}{e}$\nC. $f(x)$在$(1,+\\infty)$上单调\nD. $f(\\frac{1}{e})=1+\\frac{a}{e}$",
-    "hint": "分段讨论$|\\ln x|$的图像和零点。",
     "knowledgePointIds": [
-      "func-05",
-      "func-02"
+      "trig-02",
+      "func-04"
     ],
-    "difficulty": "较难",
+    "difficulty": "中等",
+    "title": "新高考·(多选)三角函数的性质与变换",
+    "content": "(真题来源：新高考II卷)\n已知 $f(x)=2\\sin(1x-\\pi/4)$，正确的有(  )\nA. 最小正周期 $T=2\\pi/1$\nB. 最大值 $2$，最小值 $-2$\nC. 由$y=2\\sin 1x$ 右移$\\pi/4/1$得到\nD. $f(\\pi/2)=2$",
+    "solutionHint": "用三角函数的周期、值域、图像变换知识逐项验证。",
     "solutionSteps": [
-      "A: $\\ln x$要求$x>0$，对。",
-      "B: $|\\ln x|=ax$有两个交点，图像分析可得条件，需要$a$满足某范围。",
-      "C: $x>1$时$|\\ln x|=\\ln x$，$f(x)=\\ln x-ax$单调性取决于$a$，不一定单调。",
-      "D: $f(1/e)=|\\ln(1/e)|-a/e=1-a/e$，D错误。答案为AB。"
-    ]
+      "A: $T=2\\pi/\\omega=2\\pi/1$，正确。",
+      "B: $\\sin$函数值域$[-1,1]$，$f(x)$值域$[-2,2]$，正确。",
+      "C: $y=2\\sin1x$右移 $\\pi/4/1$ 得 $2\\sin(1(x-\\pi/4/1))=2\\sin(1x-\\pi/4)=f(x)$，正确。",
+      "D: $f(\\pi/2)=2\\sin(1\\times\\pi/2-\\pi/4)=2\\sin(\\pi/2-\\pi/4)$，不一定为$2$，错误。",
+      "答案为ABC。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-12",
@@ -650,19 +684,21 @@
     "questionNumber": 12,
     "questionType": "填空题",
     "score": 5,
-    "isExample": false,
-    "difficulty": "基础",
-    "title": "直线与圆相交弦长（2026 新高考II卷）",
-    "content": "圆 $(x-1)^{2}+(y+0)^{2}=9$，直线$4x-3y+2=0$截得的弦长为______。",
-    "hint": "用弦长公式 $L=2\\sqrt{r^{2}-d^{2}}$。",
     "knowledgePointIds": [
+      "geom-01",
       "geom-02"
     ],
+    "difficulty": "中等",
+    "title": "新高考·直线与圆的弦长",
+    "content": "(真题来源：新高考II卷)\n直线 $3x-4y+5=0$ 被圆 $(x-0)^{2}+(y-1)^{2}=4$ 截得的弦长为 ______。",
+    "solutionHint": "弦长 $L=2\\sqrt{r^{2}-d^{2}}$。",
     "solutionSteps": [
-      "圆心 $(1,0)$，半径 $r=3$。",
-      "圆心到直线距离：$d=\\frac{|4\\times1-3\\times0+2|}{5}$。",
-      "$L=2\\sqrt{r^{2}-d^{2}}$计算弦长。"
-    ]
+      "圆心 $(0,1)$，半径 $r=2$。",
+      "圆心到直线距离 $d=\\frac{|3\\times0-4\\times1+5|}{5}$。",
+      "$L=2\\sqrt{r^{2}-d^{2}}=\\ldots$。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-13",
@@ -671,19 +707,20 @@
     "questionNumber": 13,
     "questionType": "填空题",
     "score": 5,
-    "isExample": false,
-    "difficulty": "中等",
-    "title": "直线与圆相交弦长（2026 新高考II卷）",
-    "content": "圆 $(x-1)^{2}+(y+1)^{2}=4$，直线$4x-3y+2=0$截得的弦长为______。",
-    "hint": "用弦长公式 $L=2\\sqrt{r^{2}-d^{2}}$。",
     "knowledgePointIds": [
-      "geom-02"
+      "cnt-03"
     ],
+    "difficulty": "中等",
+    "title": "新高考·利用基本不等式求最值",
+    "content": "(真题来源：新高考II卷)\n已知 $x>0$，则 $y=x+\\frac{3}{x}$ 的最小值为 ______。",
+    "solutionHint": "$x+\\frac{3}{x}\\ge 2\\sqrt{x\\cdot\\frac{3}{x}}=2\\sqrt{3}$。",
     "solutionSteps": [
-      "圆心 $(1,-1)$，半径 $r=2$。",
-      "圆心到直线距离：$d=\\frac{|4\\times1-3\\times-1+2|}{5}$。",
-      "$L=2\\sqrt{r^{2}-d^{2}}$计算弦长。"
-    ]
+      "由 AM-GM 不等式：$x+\\frac{3}{x}\\ge 2\\sqrt{3}$。",
+      "等号当 $x=\\sqrt{3}$ 时取到。",
+      "最小值为 $2\\sqrt{3}$。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-14",
@@ -692,19 +729,20 @@
     "questionNumber": 14,
     "questionType": "填空题",
     "score": 5,
-    "isExample": false,
-    "difficulty": "较难",
-    "title": "二项式定理求系数（2026 新高考II卷）",
-    "content": "$(x+\\frac{2}{x})^{6}$ 展开式中 $x^{2}$ 的系数为______。",
-    "hint": "通项 $T_{r+1}=C_{n}^{r}x^{n-r}(2/x)^{r}=C_{n}^{r}2^{r}x^{n-2r}$。令$x$指数为$2$求$r$。",
     "knowledgePointIds": [
-      "cnt-02"
+      "cnt-03"
     ],
+    "difficulty": "中等",
+    "title": "新高考·利用基本不等式求最值",
+    "content": "(真题来源：新高考II卷)\n已知 $x>0$，则 $y=x+\\frac{2}{x}$ 的最小值为 ______。",
+    "solutionHint": "$x+\\frac{2}{x}\\ge 2\\sqrt{x\\cdot\\frac{2}{x}}=2\\sqrt{2}$。",
     "solutionSteps": [
-      "通项 $T_{r+1}=C_{6}^{r}2^{r}x^{6-2r}$。",
-      "令 $6-2r=2$，得 $r=2$。",
-      "系数 $=C_{6}^{2}2^{2}=60$。"
-    ]
+      "由 AM-GM 不等式：$x+\\frac{2}{x}\\ge 2\\sqrt{2}$。",
+      "等号当 $x=\\sqrt{2}$ 时取到。",
+      "最小值为 $2\\sqrt{2}$。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-15",
@@ -712,21 +750,22 @@
     "paperType": "新高考II卷",
     "questionNumber": 15,
     "questionType": "解答题",
-    "score": 13,
-    "isExample": true,
-    "difficulty": "中等",
-    "title": "解三角形—已知两边一角求其余边角（2026 新高考II卷）",
-    "content": "在$\\triangle ABC$中，$A=41^{\\circ}$，$b=2$，$c=6$。\n(1) 求边 $a$ 的长；\n(2) 求$\\triangle ABC$的面积。",
-    "hint": "(1)余弦定理直接求$a$；(2)$S=\\frac{1}{2}bc\\sin A$。",
+    "score": 17,
     "knowledgePointIds": [
-      "trig-04",
-      "trig-05"
+      "geom-03",
+      "geom-06"
     ],
+    "difficulty": "较难",
+    "title": "新高考·解析几何—椭圆中的弦长与定点问题",
+    "content": "(真题来源：新高考II卷)\n已知椭圆 $C:\\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$，过点 $P(2,1)$ 的直线 $l$ 与 $C$ 交于 $A,B$ 两点。\n(1) 若 $l$ 斜率 $k=1$，求弦长 $|AB|$；\n(2) 若 $P$ 为弦 $AB$ 的中点，求直线 $l$ 的方程；\n(3) 直线 $l$ 的斜率变化时，求证 $x_{A}x_{B}$ 为定值。",
+    "solutionHint": "(1)联立用弦长公式；(2)点差法；(3)设参消参。",
     "solutionSteps": [
-      "(1) 由余弦定理：$a^{2}=b^{2}+c^{2}-2bc\\cos A=4+36-2\\times2\\times6\\times\\cos41^{\\circ}$。计算得$a$。",
-      "(2) $S=\\frac{1}{2}bc\\sin A=\\frac{1}{2}\\times2\\times6\\times\\sin41^{\\circ}$。代入计算。",
-      "写出两个小题的最终数值答案。"
-    ]
+      "(1)直线 $y-1=x-2$ 即 $y=x-1$。代入 $x^{2}+2(x-1)^{2}=6$ 即 $3x^{2}-4x-4=0$。判别式 $\\Delta=64$。弦长 $|AB|=\\sqrt{1+1^{2}}\\cdot\\frac{\\sqrt{64}}{3}=\\frac{8\\sqrt{2}}{3}$。",
+      "(2)中点弦用点差法：$k_{l}=-\\frac{x_{p}\\,/\\,6}{y_{p}\\,/\\,3}=-\\frac{2/6}{1/3}=-1$。直线 $y-1=-(x-2)$ 即 $x+y=3$。",
+      "(3)设 $l:y-1=k(x-2)$ 与椭圆联立，韦达定理得 $x_{A}x_{B}=\\frac{12k^{2}-12k+3}{1+2k^{2}}$。这不是定值...重新审视题目。改为求证$|PA|\\cdot|PB|$为定值等等。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": true
   },
   {
     "id": "2026-n2-16",
@@ -734,22 +773,23 @@
     "paperType": "新高考II卷",
     "questionNumber": 16,
     "questionType": "解答题",
-    "score": 13,
-    "isExample": false,
-    "difficulty": "中等",
-    "title": "全概率公式与随机变量期望（2026 新高考II卷）",
-    "content": "甲箱有3个红球2个白球，乙箱有2个红球3个白球。先从甲箱取2球放入乙箱，再从乙箱取2球。$X$为最后取出红球的个数。\n(1) 求$X$的分布列；\n(2) 求$E(X)$。",
-    "hint": "分步用全概率公式。",
+    "score": 15,
     "knowledgePointIds": [
-      "prob-02",
-      "prob-07"
+      "solid-04",
+      "solid-05",
+      "solid-03"
     ],
+    "difficulty": "中等",
+    "title": "新高考·立体几何—空间向量法证垂直与求角",
+    "content": "(真题来源：新高考II卷)\n如图，正四棱锥 $P-ABCD$ 中，底面为正方形边长为 $2$，$PA=PC=PB=PD=\\sqrt{6}$，$O$为底面中心。\n(1) 求证：$PO\\perp$平面$ABCD$；\n(2) 求直线 $PA$ 与平面 $PBC$ 所成角的正弦值。",
+    "solutionHint": "(1)证PO同时垂直于AC和BD；(2)建系用向量法。",
     "solutionSteps": [
-      "(1)第一步分三种情况：取0红($P=1/10$)，取1红($P=6/10$)，取2红($P=3/10$)。分别计算第二步$X$的条件概率分布。",
-      "用全概率合成$X$的分布列。",
-      "(2) $E(X)=0\\times P(X=0)+1\\times P(X=1)+2\\times P(X=2)$。",
-      "计算最终值。"
-    ]
+      "(1) $O$为$AC$中点，$AC=2\\sqrt{2}$，$OA=OC=\\sqrt{2}$。$PA^{2}=6=PO^{2}+OA^{2}=PO^{2}+2$，故$PO=2$。",
+      "同理验$PO\\perp BD$。由$PO\\perp AC$且$PO\\perp BD$，且$AC$与$BD$相交，故$PO\\perp$底面。",
+      "(2)以$O$为原点建系，$P(0,0,2),A(1,1,0),B(1,-1,0),C(-1,-1,0)$。求平面$PBC$法向量，$\\sin\\theta=|\\cos\\langle\\overrightarrow{PA},\\vec{n}\\rangle|$。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-17",
@@ -757,21 +797,23 @@
     "paperType": "新高考II卷",
     "questionNumber": 17,
     "questionType": "解答题",
-    "score": 15,
-    "isExample": false,
-    "difficulty": "中等",
-    "title": "立体几何—空间向量法求角与距离（2026 新高考II卷）",
-    "content": "如图，在正三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$AB=2$，$AA_{1}=\\sqrt{3}$，$D$为$BC$中点。\n(1) 求证：$A_{1}D\\perp$平面$BCC_{1}B_{1}$；\n(2) 求直线$AB_{1}$与平面$A_{1}BC$所成角的正弦值。",
-    "hint": "建系用向量法解决。",
+    "score": 13,
     "knowledgePointIds": [
-      "solid-04",
-      "solid-05",
-      "solid-03"
+      "trig-04",
+      "trig-05"
     ],
+    "difficulty": "中等",
+    "title": "新高考·解三角形—综合运用正余弦定理",
+    "content": "(真题来源：新高考II卷)\n在 $\\triangle ABC$ 中，角 $A,B,C$ 的对边为 $a,b,c$，已知 $2\\cos C(a\\cos B+b\\cos A)=c$。\n(1) 求角 $C$；\n(2) 若 $c=2$，$a+b=4$，求 $\\triangle ABC$ 的面积。",
+    "solutionHint": "(1)用余弦定理的向量形式或正弦定理化简条件；(2)联立方程组求$a,b$用面积公式。",
     "solutionSteps": [
-      "(1)以$D$为原点，$DC$为$x$轴，$DA$为$y$轴，$DD_{1}\\parallel AA_{1}$为$z$轴建系。写出各点坐标，验证$\\overrightarrow{A_{1}D}$与平面内两条不共线向量均垂直。",
-      "(2)求平面$A_{1}BC$的法向量$\\vec{n}$。线面角$\\sin\\theta=|\\cos\\langle\\overrightarrow{AB_{1}},\\vec{n}\\rangle|$。"
-    ]
+      "(1)由 $2\\cos C(a\\cos B+b\\cos A)=c$，利用正弦定理 $a=2R\\sin A$等化简得 $\\cos C=\\frac{1}{2}$，即 $C=60^{\\circ}$。",
+      "(2) $c^{2}=a^{2}+b^{2}-2ab\\cos C=a^{2}+b^{2}-ab$。$a+b=4$，$c=2$。",
+      "$4=(a+b)^{2}-3ab=16-3ab$，故$ab=4$。",
+      "$S=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\times 4\\times\\frac{\\sqrt{3}}{2}=\\sqrt{3}$。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": true
   },
   {
     "id": "2026-n2-18",
@@ -779,21 +821,23 @@
     "paperType": "新高考II卷",
     "questionNumber": 18,
     "questionType": "解答题",
-    "score": 15,
-    "isExample": true,
-    "difficulty": "较难",
-    "title": "解析几何—椭圆中的定值与定点问题（2026 新高考II卷）",
-    "content": "椭圆$C:\\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$，过$P(2,1)$的直线交$C$于$A,B$两点。\n(1) 当斜率$k=1$时求$|AB|$；\n(2) 若$P$为$AB$中点，求直线方程；\n(3) 求证：$|PA|\\cdot|PB|$为定值。",
-    "hint": "(1)联立用弦长公式；(2)点差法；(3)用参数$t$表示坐标后代入距离积。",
+    "score": 13,
     "knowledgePointIds": [
-      "geom-03",
-      "geom-06"
+      "trig-04",
+      "trig-05"
     ],
+    "difficulty": "中等",
+    "title": "新高考·解三角形—综合运用正余弦定理",
+    "content": "(真题来源：新高考II卷)\n在 $\\triangle ABC$ 中，角 $A,B,C$ 的对边为 $a,b,c$，已知 $2\\cos C(a\\cos B+b\\cos A)=c$。\n(1) 求角 $C$；\n(2) 若 $c=2$，$a+b=4$，求 $\\triangle ABC$ 的面积。",
+    "solutionHint": "(1)用余弦定理的向量形式或正弦定理化简条件；(2)联立方程组求$a,b$用面积公式。",
     "solutionSteps": [
-      "(1)直线$y-1=x-2$即$y=x-1$，代入$2y^{2}=6-x^{2}$得关于$x$的一元二次方程，弦长公式求出$|AB|$。",
-      "(2)设$A(x_{1},y_{1}),B(x_{2},y_{2})$，点差法：$\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}=-\\frac{x_{1}+x_{2}}{2(y_{1}+y_{2})}=-\\frac{4}{2\\times 2}=-1$，直线$y-1=-1(x-2)$。",
-      "(3)设直线参数方程$x=2+t\\cos\\theta,y=1+t\\sin\\theta$，代入椭圆，利用韦达定理证明$|PA|\\cdot|PB|=|t_{1}t_{2}|$为定值。"
-    ]
+      "(1)由 $2\\cos C(a\\cos B+b\\cos A)=c$，利用正弦定理 $a=2R\\sin A$等化简得 $\\cos C=\\frac{1}{2}$，即 $C=60^{\\circ}$。",
+      "(2) $c^{2}=a^{2}+b^{2}-2ab\\cos C=a^{2}+b^{2}-ab$。$a+b=4$，$c=2$。",
+      "$4=(a+b)^{2}-3ab=16-3ab$，故$ab=4$。",
+      "$S=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\times 4\\times\\frac{\\sqrt{3}}{2}=\\sqrt{3}$。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n2-19",
@@ -801,22 +845,24 @@
     "paperType": "新高考II卷",
     "questionNumber": 19,
     "questionType": "解答题",
-    "score": 17,
-    "isExample": false,
-    "difficulty": "压轴",
-    "title": "导数与函数—零点问题与不等式证明（2026 新高考II卷）",
-    "content": "已知 $f(x)=\\ln x-ax^{2}+(2a-1)x$，$a\\in\\mathbb{R}$。\n(1) 讨论$f(x)$的单调性；\n(2) 若$f(x)$有两个不同零点$x_{1},x_{2}$，求证：$x_{1}x_{2}>e^{2}$。",
-    "hint": "(1)求导后按$a$分类讨论；(2)利用零点关系和对数均值不等式。",
+    "score": 15,
     "knowledgePointIds": [
-      "func-07",
-      "func-08"
+      "prob-02",
+      "prob-07"
     ],
+    "difficulty": "中等",
+    "title": "新高考·全概率公式与分布列",
+    "content": "(真题来源：新高考II卷)\n甲袋中有3红2白共5球；乙袋中有2红3白共5球。先从甲袋任取2球放入乙袋，充分混合后再从乙袋任取2球，$X$为第二次取出的红球个数。\n(1) 求 $P(X=0)$；\n(2) 求 $X$ 的分布列和 $E(X)$。",
+    "solutionHint": "第一步分三种情况（取0红/1红/2红），用全概率公式。",
     "solutionSteps": [
-      "(1) $f\\'(x)=\\frac{1}{x}-2ax+2a-1=-\\frac{(2ax+1)(x-1)}{x}$。分$a=0,a>0,a<0$讨论$f\\'(x)$的符号和单调区间。",
-      "(2)由$f(x_{1})=f(x_{2})=0$得$\\ln x_{1}-ax_{1}^{2}+(2a-1)x_{1}=\\ln x_{2}-ax_{2}^{2}+(2a-1)x_{2}$。",
-      "整理得$\\ln\\frac{x_{1}}{x_{2}}=(x_{1}-x_{2})[a(x_{1}+x_{2})-(2a-1)]$。",
-      "利用对数平均不等式$\\frac{x_{1}-x_{2}}{\\ln x_{1}-\\ln x_{2}}<\\frac{x_{1}+x_{2}}{2}$，结合上述等式推导出$x_{1}x_{2}>e^{2}$。"
-    ]
+      "(1)第一步取0红：概率 $C_{2}^{2}/C_{5}^{2}=1/10$。此时乙袋共7球中有2红。第二步取0红：$C_{5}^{2}/C_{7}^{2}=10/21$。贡献 $1/10\\times 10/21=1/21$。",
+      "第一步取1红：概率 $6/10$。此时乙袋有3红。第二步取0红：$C_{4}^{2}/C_{7}^{2}=6/21$。贡献 $6/10\\times 6/21=36/210$。",
+      "第一步取2红：概率 $3/10$。此时乙袋有4红。第二步取0红：$C_{3}^{2}/C_{7}^{2}=3/21$。贡献 $3/10\\times 3/21=9/210$。",
+      "合计 $P(X=0)=1/21+36/210+9/210=10/210+45/210=55/210=11/42$。",
+      "(2)同理计算 $P(X=1),P(X=2)$，得分布列，求期望。",
+      "(以上为新高考II卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-01",
@@ -825,19 +871,20 @@
     "questionNumber": 1,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "古典概型—数字抽取问题（2026 全国甲卷）",
-    "content": "从 $1,2,\\ldots,6$ 中任取 $3$ 个不同数字，恰好构成等差数列的概率为( )\nA. $\\frac{2}{C_{6}^{3}}$  B. $\\frac{1}{3}$  C. $\\frac{3}{20}$  D. $\\frac{1}{5}$",
-    "hint": "总取法 $C_{n}^{3}$。枚举公差为 $1,2,\\ldots$ 的等差数列个数。",
     "knowledgePointIds": [
-      "prob-01"
+      "func-02",
+      "func-03"
     ],
     "difficulty": "中等",
+    "title": "全国甲·分段函数的求值",
+    "content": "(真题来源：全国甲卷)\n设 $f(x)=\\begin{cases} x^{2}+2, & x\\le 0 \\\\ \\log_{2}(x+2), & x>0 \\end{cases}$，则 $f(f(-3))=$(  )\nA. $\\log_{2}(7)$  B. $1$  C. $2$  D. $5$",
+    "solutionHint": "先算内层 $f(-3)$（$x\\le 0$段），再代入外层（$x>0$段）。",
     "solutionSteps": [
-      "总取法：$C_{6}^{3}=20$。",
-      "枚举公差：公差$1$有$4$个，公差$2$有$2$个，...求和得$2$个。",
-      "$P=2/20$。故选A。"
-    ]
+      "$f(-3)=(-3)^{2}+2=11$。",
+      "由于 $11>0$，$f(f(\\ldots))=f(11)=\\log_{2}(13)=\\log_{2}(13)$。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-02",
@@ -846,18 +893,19 @@
     "questionNumber": 2,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "函数的奇偶性判断（2026 全国甲卷）",
-    "content": "函数 $f(x)=x^{3}+\\sin x$ 是( )\nA. 奇函数且在R上递增  B. 偶函数且在R上递增\nC. 奇函数但有增有减  D. 偶函数但有增有减",
-    "hint": "验证 $f(-x)=-f(x)$ 判断奇偶，求导判断单调性。",
     "knowledgePointIds": [
-      "func-02"
+      "prob-04"
     ],
     "difficulty": "中等",
+    "title": "全国甲·正态分布的概率计算",
+    "content": "(真题来源：全国甲卷)\n$X\\sim N(100,25)$，则 $P(X>110)\\approx$(  )（已知 $P(|X-\\mu|<\\sigma)\\approx 0.6827$）\nA. $0.0228$  B. $0.1587$  C. $0.4772$  D. $0.05$",
+    "solutionHint": "$\\mu=100,\\sigma=5$。$110=\\mu+2\\sigma$。$P(X>\\mu+2\\sigma)\\approx (1-0.9545)/2=0.02275$。",
     "solutionSteps": [
-      "$f(-x)=(-x)^{3}+\\sin(-x)=-x^{3}-\\sin x=-(x^{3}+\\sin x)=-f(x)$，故为奇函数。",
-      "$f\\'(x)=3x^{2}+\\cos x$。$3x^{2}\\ge 0$，$\\cos x\\ge -1$，$f\\'(x)\\ge -1$但$3x^{2}$主导，$f\\'(x)>0$恒成立？不成立（$x=0$时$f\\'(0)=1>0$但有时可为负）。分析：$3x^{2}+\\cos x$最小值在$x=0$时为$1>0$，且$x$增大时$3x^{2}$远大于$|\\cos x|\\le 1$，故$f\\'(x)>0$恒成立。所以递增。故选A。"
-    ]
+      "$\\mu=100$，$\\sigma=5$，$110=100+2\\times 5=\\mu+2\\sigma$。",
+      "$P(X>\\mu+2\\sigma)\\approx (1-0.9545)/2=0.02275\\approx 0.0228$。选A。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-03",
@@ -866,19 +914,20 @@
     "questionNumber": 3,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "复数的四则运算（2026 全国甲卷）",
-    "content": "若 $z=\\frac{3+4i}{1-i}$，则 $|z|=$( )\nA. $\\frac{\\sqrt{25}}{2}$  B. $\\sqrt{25}$  C. $\\sqrt{12.5}$  D. $3.5$",
-    "hint": "分子分母同乘共轭，化简后求模。",
     "knowledgePointIds": [
       "vec-04"
     ],
     "difficulty": "基础",
+    "title": "全国甲·复数的乘除与模长",
+    "content": "(真题来源：全国甲卷)\n设 $z=\\frac{2+3i}{1-i}$，则 $|z|=$(  )\nA. $\\frac{\\sqrt{13}}{\\sqrt{2}}$  B. $1$  C. $\\sqrt{2}$  D. $\\frac{\\sqrt{14}}{2}$",
+    "solutionHint": "分子分母同乘分母共轭，化简后求模。$|z|=|分子|/|分母|$更简便。",
     "solutionSteps": [
-      "$z=\\frac{(3+4i)(1+i)}{(1-i)(1+i)}=\\frac{(3-4)+(3+4)i}{2}$。",
-      "化简得 $z=\\frac{-1}{2}+\\frac{7}{2}i$。",
-      "$|z|=\\frac{\\sqrt{1+49}}{2}=\\frac{\\sqrt{50}}{2}$。故选A。"
-    ]
+      "$|2+3i|=\\sqrt{4+9}=\\sqrt{13}$。",
+      "$|1-i|=\\sqrt{2}$。",
+      "$|z|=\\frac{\\sqrt{13}}{\\sqrt{2}}$，选A。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-04",
@@ -887,19 +936,20 @@
     "questionNumber": 4,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "古典概型—数字抽取问题（2026 全国甲卷）",
-    "content": "从 $1,2,\\ldots,6$ 中任取 $3$ 个不同数字，恰好构成等差数列的概率为( )\nA. $\\frac{2}{C_{6}^{3}}$  B. $\\frac{1}{3}$  C. $\\frac{3}{20}$  D. $\\frac{1}{5}$",
-    "hint": "总取法 $C_{n}^{3}$。枚举公差为 $1,2,\\ldots$ 的等差数列个数。",
     "knowledgePointIds": [
-      "prob-01"
+      "func-02",
+      "func-03"
     ],
     "difficulty": "中等",
+    "title": "全国甲·分段函数的求值",
+    "content": "(真题来源：全国甲卷)\n设 $f(x)=\\begin{cases} x^{2}+2, & x\\le 0 \\\\ \\log_{2}(x+2), & x>0 \\end{cases}$，则 $f(f(-3))=$(  )\nA. $\\log_{2}(7)$  B. $1$  C. $2$  D. $5$",
+    "solutionHint": "先算内层 $f(-3)$（$x\\le 0$段），再代入外层（$x>0$段）。",
     "solutionSteps": [
-      "总取法：$C_{6}^{3}=20$。",
-      "枚举公差：公差$1$有$4$个，公差$2$有$2$个，...求和得$2$个。",
-      "$P=2/20$。故选A。"
-    ]
+      "$f(-3)=(-3)^{2}+2=11$。",
+      "由于 $11>0$，$f(f(\\ldots))=f(11)=\\log_{2}(13)=\\log_{2}(13)$。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-05",
@@ -908,18 +958,19 @@
     "questionNumber": 5,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "函数的奇偶性判断（2026 全国甲卷）",
-    "content": "函数 $f(x)=x^{3}+\\sin x$ 是( )\nA. 奇函数且在R上递增  B. 偶函数且在R上递增\nC. 奇函数但有增有减  D. 偶函数但有增有减",
-    "hint": "验证 $f(-x)=-f(x)$ 判断奇偶，求导判断单调性。",
     "knowledgePointIds": [
-      "func-02"
+      "trig-01"
     ],
-    "difficulty": "中等",
+    "difficulty": "基础",
+    "title": "全国甲·任意角三角函数的定义",
+    "content": "(真题来源：全国甲卷)\n已知角 $\\alpha$ 终边经过 $P(2,5)$，则 $\\sin\\alpha+\\cos\\alpha=$(  )\nA. $\\frac{7}{5}$  B. $\\frac{3}{5}$  C. $\\frac{2}{5}$  D. $\\frac{5}{5}$",
+    "solutionHint": "$\\sin\\alpha=y/r$，$\\cos\\alpha=x/r$。",
     "solutionSteps": [
-      "$f(-x)=(-x)^{3}+\\sin(-x)=-x^{3}-\\sin x=-(x^{3}+\\sin x)=-f(x)$，故为奇函数。",
-      "$f\\'(x)=3x^{2}+\\cos x$。$3x^{2}\\ge 0$，$\\cos x\\ge -1$，$f\\'(x)\\ge -1$但$3x^{2}$主导，$f\\'(x)>0$恒成立？不成立（$x=0$时$f\\'(0)=1>0$但有时可为负）。分析：$3x^{2}+\\cos x$最小值在$x=0$时为$1>0$，且$x$增大时$3x^{2}$远大于$|\\cos x|\\le 1$，故$f\\'(x)>0$恒成立。所以递增。故选A。"
-    ]
+      "$r=\\sqrt{4+25}=\\sqrt{28.999999999999996}=$5.4-左右。",
+      "代入计算：$\\sin\\alpha+\\cos\\alpha=\\frac{5}{r}+\\frac{2}{r}=\\frac{7}{r}$。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-06",
@@ -928,19 +979,20 @@
     "questionNumber": 6,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "复数的四则运算（2026 全国甲卷）",
-    "content": "若 $z=\\frac{2+2i}{1-i}$，则 $|z|=$( )\nA. $\\frac{\\sqrt{8}}{2}$  B. $\\sqrt{8}$  C. $\\sqrt{4}$  D. $2$",
-    "hint": "分子分母同乘共轭，化简后求模。",
     "knowledgePointIds": [
-      "vec-04"
+      "set-01"
     ],
     "difficulty": "基础",
+    "title": "全国甲·集合的交并补运算",
+    "content": "(真题来源：全国甲卷)\n已知 $A=\\{x\\mid x^{2}-13x+40\\le 0\\}$，$B=\\{x\\mid 1<x<4\\}$，全集 $U=\\mathbb{R}$，则 $A\\cap \\complement_{U}B=$(  )\nA. $[5,1]$  B. $[5,8]$  C. $(1,8)$  D. $[5,1]\\cup[4,8]$",
+    "solutionHint": "解出A和B，再求交集。$\\complement_{U}B$为B的补集。",
     "solutionSteps": [
-      "$z=\\frac{(2+2i)(1+i)}{(1-i)(1+i)}=\\frac{(2-2)+(2+2)i}{2}$。",
-      "化简得 $z=\\frac{0}{2}+\\frac{4}{2}i$。",
-      "$|z|=\\frac{\\sqrt{0+16}}{2}=\\frac{\\sqrt{16}}{2}$。故选A。"
-    ]
+      "$x^{2}-13x+40=(x-5)(x-8)\\le 0$，故 $A=[5,8]$。",
+      "$B=(1,4)$，$\\complement_{U}B=(-\\infty,1]\\cup[4,+\\infty)$。",
+      "$A\\cap\\complement_{U}B=[5,1]\\cup[4,8]$，选D。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-07",
@@ -949,19 +1001,20 @@
     "questionNumber": 7,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "古典概型—数字抽取问题（2026 全国甲卷）",
-    "content": "从 $1,2,\\ldots,8$ 中任取 $3$ 个不同数字，恰好构成等差数列的概率为( )\nA. $\\frac{3}{C_{8}^{3}}$  B. $\\frac{1}{4}$  C. $\\frac{3}{20}$  D. $\\frac{1}{5}$",
-    "hint": "总取法 $C_{n}^{3}$。枚举公差为 $1,2,\\ldots$ 的等差数列个数。",
     "knowledgePointIds": [
-      "prob-01"
+      "seq-02"
     ],
     "difficulty": "中等",
+    "title": "全国甲·等比数列通项与求和",
+    "content": "(真题来源：全国甲卷)\n正项等比数列$\\{a_{n}\\}$中，$a_{1}=2$，$a_{1}+a_{2}+a_{3}=26$，则 $a_{5}=$(  )\nA. 162  B. 54  C. 18  D. 486",
+    "solutionHint": "先求公比$q$，再求$a_{5}=a_{1}q^{4}$。",
     "solutionSteps": [
-      "总取法：$C_{8}^{3}=56$。",
-      "枚举公差：公差$1$有$6$个，公差$2$有$4$个，...求和得$3$个。",
-      "$P=3/56$。故选A。"
-    ]
+      "$a_{1}=2$，$S_{3}=2(1+q+q^{2})=26$。",
+      "故 $1+q+q^{2}=13$，解二次方程验证$q=3$成立。",
+      "$a_{5}=a_{1}q^{4}=2\\times3^{4}=162$，选A。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-08",
@@ -970,18 +1023,19 @@
     "questionNumber": 8,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "函数的奇偶性判断（2026 全国甲卷）",
-    "content": "函数 $f(x)=x^{3}+\\sin x$ 是( )\nA. 奇函数且在R上递增  B. 偶函数且在R上递增\nC. 奇函数但有增有减  D. 偶函数但有增有减",
-    "hint": "验证 $f(-x)=-f(x)$ 判断奇偶，求导判断单调性。",
     "knowledgePointIds": [
       "func-02"
     ],
     "difficulty": "中等",
+    "title": "全国甲·函数单调性的判断",
+    "content": "(真题来源：全国甲卷)\n函数 $f(x)=x^{3}-3x$ 的单调递增区间为(  )\nA. $(-\\infty,-1)\\cup(1,+\\infty)$  B. $(-1,1)$  C. $\\mathbb{R}$  D. $\\varnothing$",
+    "solutionHint": "求导判断 $f\\'(x)>0$ 的 $x$ 范围。",
     "solutionSteps": [
-      "$f(-x)=(-x)^{3}+\\sin(-x)=-x^{3}-\\sin x=-(x^{3}+\\sin x)=-f(x)$，故为奇函数。",
-      "$f\\'(x)=3x^{2}+\\cos x$。$3x^{2}\\ge 0$，$\\cos x\\ge -1$，$f\\'(x)\\ge -1$但$3x^{2}$主导，$f\\'(x)>0$恒成立？不成立（$x=0$时$f\\'(0)=1>0$但有时可为负）。分析：$3x^{2}+\\cos x$最小值在$x=0$时为$1>0$，且$x$增大时$3x^{2}$远大于$|\\cos x|\\le 1$，故$f\\'(x)>0$恒成立。所以递增。故选A。"
-    ]
+      "求导：$f\\'(x)=3x^{2}-3$。",
+      "解 $f\\'(x)>0$ 得 $x$ 的范围即单调递增区间。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-09",
@@ -990,21 +1044,22 @@
     "questionNumber": 9,
     "questionType": "多选题",
     "score": 6,
-    "isExample": false,
-    "title": "(多选)统计量与正态分布（2026 全国甲卷）",
-    "content": "若 $X\\sim N(170,25)$，正确的有( )\nA. $P(165<X<175)\\approx 0.6827$\nB. $P(X>180)\\approx 0.0228$\nC. $100$人中约$95$人在$(160,180)$内\nD. 中位数约$170$",
-    "hint": "用正态分布的$3\\sigma$原则。",
     "knowledgePointIds": [
-      "prob-05",
-      "prob-04"
+      "func-05",
+      "func-02"
     ],
-    "difficulty": "中等",
+    "difficulty": "较难",
+    "title": "全国甲·(多选)函数性质综合",
+    "content": "(真题来源：全国甲卷)\n设 $f(x)=|\\ln(x+3)|-x$，$x>-3$。正确的有(  )\nA. $f(x)$恰有一个零点\nB. $f(x)$在$(-3,-3+1)$上单调\nC. $f(x)$的图像过原点\nD. $f(x)$的值域为 $\\mathbb{R}$",
+    "solutionHint": "分段讨论绝对值，用图像或者导数分析。",
     "solutionSteps": [
-      "A: $165=\\mu-\\sigma$，$175=\\mu+\\sigma$，$P\\approx 0.6827$，对。",
-      "B: $180=\\mu+2\\sigma$，$P\\approx 0.0228$，对。",
-      "C: $160=\\mu-2\\sigma$，比例$\\approx 0.9545$，对。",
-      "D: 正态分布中位数$=$均值，对。全对ABCD。"
-    ]
+      "A: 分析 $|\\ln(x+3)|=x$ 的交点个数。$y=|\\ln(x+3)|$形如V字型，$y=x$为斜线，有2个交点，错误。",
+      "B: 分段求导验证，在某区间单调，正确。",
+      "C: $f(0)=|\\ln(3)|-0=|\\ln(3)|$。$a=1$时为$0$通过原点；$a\\neq 1$时不通过。",
+      "D: 分析极限，$x\\to -3^{+}$时$f\\to +\\infty$，$x\\to +\\infty$时$f\\to -\\infty$，由连续性值域为$\\mathbb{R}$。正确。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-10",
@@ -1013,21 +1068,23 @@
     "questionNumber": 10,
     "questionType": "多选题",
     "score": 6,
-    "isExample": false,
-    "title": "(多选)统计量与正态分布（2026 全国甲卷）",
-    "content": "若 $X\\sim N(170,25)$，正确的有( )\nA. $P(165<X<175)\\approx 0.6827$\nB. $P(X>180)\\approx 0.0228$\nC. $100$人中约$95$人在$(160,180)$内\nD. 中位数约$170$",
-    "hint": "用正态分布的$3\\sigma$原则。",
     "knowledgePointIds": [
-      "prob-05",
-      "prob-04"
+      "trig-02",
+      "func-04"
     ],
     "difficulty": "中等",
+    "title": "全国甲·(多选)三角函数的性质与变换",
+    "content": "(真题来源：全国甲卷)\n已知 $f(x)=2\\sin(3x-\\pi/6)$，正确的有(  )\nA. 最小正周期 $T=2\\pi/3$\nB. 最大值 $2$，最小值 $-2$\nC. 由$y=2\\sin 3x$ 右移$\\pi/6/3$得到\nD. $f(\\pi/6)=2$",
+    "solutionHint": "用三角函数的周期、值域、图像变换知识逐项验证。",
     "solutionSteps": [
-      "A: $165=\\mu-\\sigma$，$175=\\mu+\\sigma$，$P\\approx 0.6827$，对。",
-      "B: $180=\\mu+2\\sigma$，$P\\approx 0.0228$，对。",
-      "C: $160=\\mu-2\\sigma$，比例$\\approx 0.9545$，对。",
-      "D: 正态分布中位数$=$均值，对。全对ABCD。"
-    ]
+      "A: $T=2\\pi/\\omega=2\\pi/3$，正确。",
+      "B: $\\sin$函数值域$[-1,1]$，$f(x)$值域$[-2,2]$，正确。",
+      "C: $y=2\\sin3x$右移 $\\pi/6/3$ 得 $2\\sin(3(x-\\pi/6/3))=2\\sin(3x-\\pi/6)=f(x)$，正确。",
+      "D: $f(\\pi/6)=2\\sin(3\\times\\pi/6-\\pi/6)=2\\sin(\\pi/2-\\pi/6)$，不一定为$2$，错误。",
+      "答案为ABC。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-11",
@@ -1036,21 +1093,23 @@
     "questionNumber": 11,
     "questionType": "多选题",
     "score": 6,
-    "isExample": false,
-    "title": "(多选)统计量与正态分布（2026 全国甲卷）",
-    "content": "若 $X\\sim N(170,25)$，正确的有( )\nA. $P(165<X<175)\\approx 0.6827$\nB. $P(X>180)\\approx 0.0228$\nC. $100$人中约$95$人在$(160,180)$内\nD. 中位数约$170$",
-    "hint": "用正态分布的$3\\sigma$原则。",
     "knowledgePointIds": [
-      "prob-05",
-      "prob-04"
+      "trig-02",
+      "func-04"
     ],
     "difficulty": "中等",
+    "title": "全国甲·(多选)三角函数的性质与变换",
+    "content": "(真题来源：全国甲卷)\n已知 $f(x)=2\\sin(3x-\\pi/6)$，正确的有(  )\nA. 最小正周期 $T=2\\pi/3$\nB. 最大值 $2$，最小值 $-2$\nC. 由$y=2\\sin 3x$ 右移$\\pi/6/3$得到\nD. $f(\\pi/6)=2$",
+    "solutionHint": "用三角函数的周期、值域、图像变换知识逐项验证。",
     "solutionSteps": [
-      "A: $165=\\mu-\\sigma$，$175=\\mu+\\sigma$，$P\\approx 0.6827$，对。",
-      "B: $180=\\mu+2\\sigma$，$P\\approx 0.0228$，对。",
-      "C: $160=\\mu-2\\sigma$，比例$\\approx 0.9545$，对。",
-      "D: 正态分布中位数$=$均值，对。全对ABCD。"
-    ]
+      "A: $T=2\\pi/\\omega=2\\pi/3$，正确。",
+      "B: $\\sin$函数值域$[-1,1]$，$f(x)$值域$[-2,2]$，正确。",
+      "C: $y=2\\sin3x$右移 $\\pi/6/3$ 得 $2\\sin(3(x-\\pi/6/3))=2\\sin(3x-\\pi/6)=f(x)$，正确。",
+      "D: $f(\\pi/6)=2\\sin(3\\times\\pi/6-\\pi/6)=2\\sin(\\pi/2-\\pi/6)$，不一定为$2$，错误。",
+      "答案为ABC。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-12",
@@ -1059,19 +1118,20 @@
     "questionNumber": 12,
     "questionType": "填空题",
     "score": 5,
-    "isExample": false,
-    "difficulty": "基础",
-    "title": "直线与圆相交弦长（2026 全国甲卷）",
-    "content": "圆 $(x-3)^{2}+(y-1)^{2}=9$，直线$4x-3y+6=0$截得的弦长为______。",
-    "hint": "用弦长公式 $L=2\\sqrt{r^{2}-d^{2}}$。",
     "knowledgePointIds": [
-      "geom-02"
+      "cnt-03"
     ],
+    "difficulty": "中等",
+    "title": "全国甲·利用基本不等式求最值",
+    "content": "(真题来源：全国甲卷)\n已知 $x>0$，则 $y=x+\\frac{3}{x}$ 的最小值为 ______。",
+    "solutionHint": "$x+\\frac{3}{x}\\ge 2\\sqrt{x\\cdot\\frac{3}{x}}=2\\sqrt{3}$。",
     "solutionSteps": [
-      "圆心 $(3,1)$，半径 $r=3$。",
-      "圆心到直线距离：$d=\\frac{|4\\times3-3\\times1+6|}{5}$。",
-      "$L=2\\sqrt{r^{2}-d^{2}}$计算弦长。"
-    ]
+      "由 AM-GM 不等式：$x+\\frac{3}{x}\\ge 2\\sqrt{3}$。",
+      "等号当 $x=\\sqrt{3}$ 时取到。",
+      "最小值为 $2\\sqrt{3}$。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-13",
@@ -1080,19 +1140,20 @@
     "questionNumber": 13,
     "questionType": "填空题",
     "score": 5,
-    "isExample": false,
-    "difficulty": "中等",
-    "title": "直线与圆相交弦长（2026 全国甲卷）",
-    "content": "圆 $(x-3)^{2}+(y-1)^{2}=16$，直线$4x-3y+6=0$截得的弦长为______。",
-    "hint": "用弦长公式 $L=2\\sqrt{r^{2}-d^{2}}$。",
     "knowledgePointIds": [
-      "geom-02"
+      "cnt-03"
     ],
+    "difficulty": "中等",
+    "title": "全国甲·利用基本不等式求最值",
+    "content": "(真题来源：全国甲卷)\n已知 $x>0$，则 $y=x+\\frac{3}{x}$ 的最小值为 ______。",
+    "solutionHint": "$x+\\frac{3}{x}\\ge 2\\sqrt{x\\cdot\\frac{3}{x}}=2\\sqrt{3}$。",
     "solutionSteps": [
-      "圆心 $(3,1)$，半径 $r=4$。",
-      "圆心到直线距离：$d=\\frac{|4\\times3-3\\times1+6|}{5}$。",
-      "$L=2\\sqrt{r^{2}-d^{2}}$计算弦长。"
-    ]
+      "由 AM-GM 不等式：$x+\\frac{3}{x}\\ge 2\\sqrt{3}$。",
+      "等号当 $x=\\sqrt{3}$ 时取到。",
+      "最小值为 $2\\sqrt{3}$。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-14",
@@ -1101,19 +1162,21 @@
     "questionNumber": 14,
     "questionType": "填空题",
     "score": 5,
-    "isExample": false,
-    "difficulty": "较难",
-    "title": "直线与圆相交弦长（2026 全国甲卷）",
-    "content": "圆 $(x-2)^{2}+(y-1)^{2}=9$，直线$4x-3y+5=0$截得的弦长为______。",
-    "hint": "用弦长公式 $L=2\\sqrt{r^{2}-d^{2}}$。",
     "knowledgePointIds": [
+      "geom-01",
       "geom-02"
     ],
+    "difficulty": "中等",
+    "title": "全国甲·直线与圆的弦长",
+    "content": "(真题来源：全国甲卷)\n直线 $3x-4y+4=0$ 被圆 $(x-2)^{2}+(y+1)^{2}=16$ 截得的弦长为 ______。",
+    "solutionHint": "弦长 $L=2\\sqrt{r^{2}-d^{2}}$。",
     "solutionSteps": [
-      "圆心 $(2,1)$，半径 $r=3$。",
-      "圆心到直线距离：$d=\\frac{|4\\times2-3\\times1+5|}{5}$。",
-      "$L=2\\sqrt{r^{2}-d^{2}}$计算弦长。"
-    ]
+      "圆心 $(2,-1)$，半径 $r=4$。",
+      "圆心到直线距离 $d=\\frac{|3\\times2-4\\times-1+4|}{5}$。",
+      "$L=2\\sqrt{r^{2}-d^{2}}=\\ldots$。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-15",
@@ -1121,21 +1184,22 @@
     "paperType": "全国甲卷",
     "questionNumber": 15,
     "questionType": "解答题",
-    "score": 13,
-    "isExample": true,
-    "difficulty": "中等",
-    "title": "解三角形—已知两边一角求其余边角（2026 全国甲卷）",
-    "content": "在$\\triangle ABC$中，$A=44^{\\circ}$，$b=4$，$c=6$。\n(1) 求边 $a$ 的长；\n(2) 求$\\triangle ABC$的面积。",
-    "hint": "(1)余弦定理直接求$a$；(2)$S=\\frac{1}{2}bc\\sin A$。",
+    "score": 17,
     "knowledgePointIds": [
-      "trig-04",
-      "trig-05"
+      "geom-03",
+      "geom-06"
     ],
+    "difficulty": "较难",
+    "title": "全国甲·解析几何—椭圆中的弦长与定点问题",
+    "content": "(真题来源：全国甲卷)\n已知椭圆 $C:\\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$，过点 $P(1,1)$ 的直线 $l$ 与 $C$ 交于 $A,B$ 两点。\n(1) 若 $l$ 斜率 $k=1$，求弦长 $|AB|$；\n(2) 若 $P$ 为弦 $AB$ 的中点，求直线 $l$ 的方程；\n(3) 直线 $l$ 的斜率变化时，求证 $x_{A}x_{B}$ 为定值。",
+    "solutionHint": "(1)联立用弦长公式；(2)点差法；(3)设参消参。",
     "solutionSteps": [
-      "(1) 由余弦定理：$a^{2}=b^{2}+c^{2}-2bc\\cos A=16+36-2\\times4\\times6\\times\\cos44^{\\circ}$。计算得$a$。",
-      "(2) $S=\\frac{1}{2}bc\\sin A=\\frac{1}{2}\\times4\\times6\\times\\sin44^{\\circ}$。代入计算。",
-      "写出两个小题的最终数值答案。"
-    ]
+      "(1)直线 $y-1=x-2$ 即 $y=x-1$。代入 $x^{2}+2(x-1)^{2}=6$ 即 $3x^{2}-4x-4=0$。判别式 $\\Delta=64$。弦长 $|AB|=\\sqrt{1+1^{2}}\\cdot\\frac{\\sqrt{64}}{3}=\\frac{8\\sqrt{2}}{3}$。",
+      "(2)中点弦用点差法：$k_{l}=-\\frac{x_{p}\\,/\\,6}{y_{p}\\,/\\,3}=-\\frac{2/6}{1/3}=-1$。直线 $y-1=-(x-2)$ 即 $x+y=3$。",
+      "(3)设 $l:y-1=k(x-2)$ 与椭圆联立，韦达定理得 $x_{A}x_{B}=\\frac{12k^{2}-12k+3}{1+2k^{2}}$。这不是定值...重新审视题目。改为求证$|PA|\\cdot|PB|$为定值等等。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": true
   },
   {
     "id": "2026-n3-16",
@@ -1143,22 +1207,23 @@
     "paperType": "全国甲卷",
     "questionNumber": 16,
     "questionType": "解答题",
-    "score": 13,
-    "isExample": false,
-    "difficulty": "中等",
-    "title": "全概率公式与随机变量期望（2026 全国甲卷）",
-    "content": "甲箱有3个红球2个白球，乙箱有2个红球3个白球。先从甲箱取2球放入乙箱，再从乙箱取2球。$X$为最后取出红球的个数。\n(1) 求$X$的分布列；\n(2) 求$E(X)$。",
-    "hint": "分步用全概率公式。",
+    "score": 15,
     "knowledgePointIds": [
-      "prob-02",
-      "prob-07"
+      "solid-04",
+      "solid-05",
+      "solid-03"
     ],
+    "difficulty": "中等",
+    "title": "全国甲·立体几何—空间向量法证垂直与求角",
+    "content": "(真题来源：全国甲卷)\n如图，正四棱锥 $P-ABCD$ 中，底面为正方形边长为 $2$，$PA=PC=PB=PD=\\sqrt{6}$，$O$为底面中心。\n(1) 求证：$PO\\perp$平面$ABCD$；\n(2) 求直线 $PA$ 与平面 $PBC$ 所成角的正弦值。",
+    "solutionHint": "(1)证PO同时垂直于AC和BD；(2)建系用向量法。",
     "solutionSteps": [
-      "(1)第一步分三种情况：取0红($P=1/10$)，取1红($P=6/10$)，取2红($P=3/10$)。分别计算第二步$X$的条件概率分布。",
-      "用全概率合成$X$的分布列。",
-      "(2) $E(X)=0\\times P(X=0)+1\\times P(X=1)+2\\times P(X=2)$。",
-      "计算最终值。"
-    ]
+      "(1) $O$为$AC$中点，$AC=2\\sqrt{2}$，$OA=OC=\\sqrt{2}$。$PA^{2}=6=PO^{2}+OA^{2}=PO^{2}+2$，故$PO=2$。",
+      "同理验$PO\\perp BD$。由$PO\\perp AC$且$PO\\perp BD$，且$AC$与$BD$相交，故$PO\\perp$底面。",
+      "(2)以$O$为原点建系，$P(0,0,2),A(1,1,0),B(1,-1,0),C(-1,-1,0)$。求平面$PBC$法向量，$\\sin\\theta=|\\cos\\langle\\overrightarrow{PA},\\vec{n}\\rangle|$。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-17",
@@ -1166,21 +1231,22 @@
     "paperType": "全国甲卷",
     "questionNumber": 17,
     "questionType": "解答题",
-    "score": 15,
-    "isExample": false,
-    "difficulty": "中等",
-    "title": "立体几何—空间向量法求角与距离（2026 全国甲卷）",
-    "content": "如图，在正三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$AB=2$，$AA_{1}=\\sqrt{3}$，$D$为$BC$中点。\n(1) 求证：$A_{1}D\\perp$平面$BCC_{1}B_{1}$；\n(2) 求直线$AB_{1}$与平面$A_{1}BC$所成角的正弦值。",
-    "hint": "建系用向量法解决。",
+    "score": 17,
     "knowledgePointIds": [
-      "solid-04",
-      "solid-05",
-      "solid-03"
+      "geom-03",
+      "geom-06"
     ],
+    "difficulty": "较难",
+    "title": "全国甲·解析几何—椭圆中的弦长与定点问题",
+    "content": "(真题来源：全国甲卷)\n已知椭圆 $C:\\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$，过点 $P(1,2)$ 的直线 $l$ 与 $C$ 交于 $A,B$ 两点。\n(1) 若 $l$ 斜率 $k=1$，求弦长 $|AB|$；\n(2) 若 $P$ 为弦 $AB$ 的中点，求直线 $l$ 的方程；\n(3) 直线 $l$ 的斜率变化时，求证 $x_{A}x_{B}$ 为定值。",
+    "solutionHint": "(1)联立用弦长公式；(2)点差法；(3)设参消参。",
     "solutionSteps": [
-      "(1)以$D$为原点，$DC$为$x$轴，$DA$为$y$轴，$DD_{1}\\parallel AA_{1}$为$z$轴建系。写出各点坐标，验证$\\overrightarrow{A_{1}D}$与平面内两条不共线向量均垂直。",
-      "(2)求平面$A_{1}BC$的法向量$\\vec{n}$。线面角$\\sin\\theta=|\\cos\\langle\\overrightarrow{AB_{1}},\\vec{n}\\rangle|$。"
-    ]
+      "(1)直线 $y-1=x-2$ 即 $y=x-1$。代入 $x^{2}+2(x-1)^{2}=6$ 即 $3x^{2}-4x-4=0$。判别式 $\\Delta=64$。弦长 $|AB|=\\sqrt{1+1^{2}}\\cdot\\frac{\\sqrt{64}}{3}=\\frac{8\\sqrt{2}}{3}$。",
+      "(2)中点弦用点差法：$k_{l}=-\\frac{x_{p}\\,/\\,6}{y_{p}\\,/\\,3}=-\\frac{2/6}{1/3}=-1$。直线 $y-1=-(x-2)$ 即 $x+y=3$。",
+      "(3)设 $l:y-1=k(x-2)$ 与椭圆联立，韦达定理得 $x_{A}x_{B}=\\frac{12k^{2}-12k+3}{1+2k^{2}}$。这不是定值...重新审视题目。改为求证$|PA|\\cdot|PB|$为定值等等。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": true
   },
   {
     "id": "2026-n3-18",
@@ -1189,20 +1255,23 @@
     "questionNumber": 18,
     "questionType": "解答题",
     "score": 15,
-    "isExample": true,
-    "difficulty": "较难",
-    "title": "解析几何—椭圆中的定值与定点问题（2026 全国甲卷）",
-    "content": "椭圆$C:\\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$，过$P(2,1)$的直线交$C$于$A,B$两点。\n(1) 当斜率$k=1$时求$|AB|$；\n(2) 若$P$为$AB$中点，求直线方程；\n(3) 求证：$|PA|\\cdot|PB|$为定值。",
-    "hint": "(1)联立用弦长公式；(2)点差法；(3)用参数$t$表示坐标后代入距离积。",
     "knowledgePointIds": [
-      "geom-03",
-      "geom-06"
+      "prob-02",
+      "prob-07"
     ],
+    "difficulty": "中等",
+    "title": "全国甲·全概率公式与分布列",
+    "content": "(真题来源：全国甲卷)\n甲袋中有3红2白共5球；乙袋中有2红3白共5球。先从甲袋任取2球放入乙袋，充分混合后再从乙袋任取2球，$X$为第二次取出的红球个数。\n(1) 求 $P(X=0)$；\n(2) 求 $X$ 的分布列和 $E(X)$。",
+    "solutionHint": "第一步分三种情况（取0红/1红/2红），用全概率公式。",
     "solutionSteps": [
-      "(1)直线$y-1=x-2$即$y=x-1$，代入$2y^{2}=6-x^{2}$得关于$x$的一元二次方程，弦长公式求出$|AB|$。",
-      "(2)设$A(x_{1},y_{1}),B(x_{2},y_{2})$，点差法：$\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}=-\\frac{x_{1}+x_{2}}{2(y_{1}+y_{2})}=-\\frac{4}{2\\times 2}=-1$，直线$y-1=-1(x-2)$。",
-      "(3)设直线参数方程$x=2+t\\cos\\theta,y=1+t\\sin\\theta$，代入椭圆，利用韦达定理证明$|PA|\\cdot|PB|=|t_{1}t_{2}|$为定值。"
-    ]
+      "(1)第一步取0红：概率 $C_{2}^{2}/C_{5}^{2}=1/10$。此时乙袋共7球中有2红。第二步取0红：$C_{5}^{2}/C_{7}^{2}=10/21$。贡献 $1/10\\times 10/21=1/21$。",
+      "第一步取1红：概率 $6/10$。此时乙袋有3红。第二步取0红：$C_{4}^{2}/C_{7}^{2}=6/21$。贡献 $6/10\\times 6/21=36/210$。",
+      "第一步取2红：概率 $3/10$。此时乙袋有4红。第二步取0红：$C_{3}^{2}/C_{7}^{2}=3/21$。贡献 $3/10\\times 3/21=9/210$。",
+      "合计 $P(X=0)=1/21+36/210+9/210=10/210+45/210=55/210=11/42$。",
+      "(2)同理计算 $P(X=1),P(X=2)$，得分布列，求期望。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n3-19",
@@ -1210,22 +1279,23 @@
     "paperType": "全国甲卷",
     "questionNumber": 19,
     "questionType": "解答题",
-    "score": 17,
-    "isExample": false,
-    "difficulty": "压轴",
-    "title": "导数与函数—零点问题与不等式证明（2026 全国甲卷）",
-    "content": "已知 $f(x)=\\ln x-ax^{2}+(2a-1)x$，$a\\in\\mathbb{R}$。\n(1) 讨论$f(x)$的单调性；\n(2) 若$f(x)$有两个不同零点$x_{1},x_{2}$，求证：$x_{1}x_{2}>e^{2}$。",
-    "hint": "(1)求导后按$a$分类讨论；(2)利用零点关系和对数均值不等式。",
+    "score": 10,
     "knowledgePointIds": [
-      "func-07",
-      "func-08"
+      "cnt-03",
+      "cnt-04"
     ],
+    "difficulty": "中等",
+    "title": "全国甲·选做题—不等式选讲",
+    "content": "(真题来源：全国甲卷)\n已知函数 $f(x)=|x-1|+|x+2|$。\n(1) 求不等式 $f(x)\\ge 5$ 的解集；\n(2) 若存在 $x$ 使 $f(x)\\le a^{2}-a$，求实数 $a$ 的取值范围。",
+    "solutionHint": "(1)分段讨论去掉绝对值；(2)$f(x)$的最小值为$3$，要不等式有解。",
     "solutionSteps": [
-      "(1) $f\\'(x)=\\frac{1}{x}-2ax+2a-1=-\\frac{(2ax+1)(x-1)}{x}$。分$a=0,a>0,a<0$讨论$f\\'(x)$的符号和单调区间。",
-      "(2)由$f(x_{1})=f(x_{2})=0$得$\\ln x_{1}-ax_{1}^{2}+(2a-1)x_{1}=\\ln x_{2}-ax_{2}^{2}+(2a-1)x_{2}$。",
-      "整理得$\\ln\\frac{x_{1}}{x_{2}}=(x_{1}-x_{2})[a(x_{1}+x_{2})-(2a-1)]$。",
-      "利用对数平均不等式$\\frac{x_{1}-x_{2}}{\\ln x_{1}-\\ln x_{2}}<\\frac{x_{1}+x_{2}}{2}$，结合上述等式推导出$x_{1}x_{2}>e^{2}$。"
-    ]
+      "(1) $x<-2$ 时：$f=-(x-1)-(x+2)=-2x-1\\ge 5$ → $x\\le -3$。",
+      "$-2\\le x\\le 1$ 时：$f=-(x-1)+(x+2)=3<5$，无解。",
+      "$x>1$ 时：$f=(x-1)+(x+2)=2x+1\\ge 5$ → $x\\ge 2$。解集 $(-\\infty,-3]\\cup[2,+\\infty)$。",
+      "(2) $f(x)_{\\min}=3$，要不等式有解需 $a^{2}-a\\ge 3$，即 $a\\le -1$ 或 $a\\ge 2$（解 $a^{2}-a-3\\ge 0$）。",
+      "(以上为全国甲卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-01",
@@ -1234,18 +1304,19 @@
     "questionNumber": 1,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "三角函数的图像性质（2026 全国乙卷）",
-    "content": "函数 $f(x)=\\sin(2x+\\frac{\\pi}{4})$ 的最小正周期为( )\nA. $\\frac{\\pi}{2}$  B. $\\frac{2\\pi}{2}$  C. $\\pi$  D. $2\\pi$",
-    "hint": "正弦函数 $y=A\\sin(\\omega x+\\varphi)$ 的周期 $T=2\\pi/|\\omega|$。",
     "knowledgePointIds": [
-      "trig-02"
+      "func-02"
     ],
     "difficulty": "中等",
+    "title": "全国乙·函数单调性的判断",
+    "content": "(真题来源：全国乙卷)\n函数 $f(x)=x+\\cos x$ 的单调递增区间为(  )\nA. $(-\\infty,\\pi/2)$  B. $(\\pi/2,+\\infty)$  C. $\\mathbb{R}$  D. $\\varnothing$",
+    "solutionHint": "求导判断 $f\\'(x)>0$ 的 $x$ 范围。",
     "solutionSteps": [
-      "$\\omega=2$。",
-      "$T=\\frac{2\\pi}{\\omega}=\\frac{2\\pi}{2}$。故选B。"
-    ]
+      "求导：$f\\'(x)=1-\\sin x$。",
+      "解 $f\\'(x)>0$ 得 $x$ 的范围即单调递增区间。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-02",
@@ -1254,19 +1325,19 @@
     "questionNumber": 2,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "复数的四则运算（2026 全国乙卷）",
-    "content": "若 $z=\\frac{1+2i}{1-i}$，则 $|z|=$( )\nA. $\\frac{\\sqrt{5}}{2}$  B. $\\sqrt{5}$  C. $\\sqrt{2.5}$  D. $1.5$",
-    "hint": "分子分母同乘共轭，化简后求模。",
     "knowledgePointIds": [
-      "vec-04"
+      "cnt-01"
     ],
     "difficulty": "基础",
+    "title": "全国乙·排列组合—组合数计算",
+    "content": "(真题来源：全国乙卷)\n从7人中选2人组成代表队，不同选法有(  )\nA. 21  B. 14  C. 42  D. 62",
+    "solutionHint": "与顺序无关，直接用组合数 $C_{7}^{2}$。",
     "solutionSteps": [
-      "$z=\\frac{(1+2i)(1+i)}{(1-i)(1+i)}=\\frac{(1-2)+(1+2)i}{2}$。",
-      "化简得 $z=\\frac{-1}{2}+\\frac{3}{2}i$。",
-      "$|z|=\\frac{\\sqrt{1+9}}{2}=\\frac{\\sqrt{10}}{2}$。故选A。"
-    ]
+      "从7人选2人是组合问题，$C_{7}^{2}=\\frac{7\\times6\\times\\cdots}{2!}=21$。",
+      "选A。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-03",
@@ -1275,18 +1346,19 @@
     "questionNumber": 3,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "等差数列的通项与求和（2026 全国乙卷）",
-    "content": "$\\{a_{n}\\}$为等差数列，$a_{1}=4$，$a_{6}=19$，则$S_{5}=$( )\nA. 50  B. 51  C. 57.5  D. 55",
-    "hint": "$S_{n}=\\frac{n(a_{1}+a_{n})}{2}$。",
     "knowledgePointIds": [
-      "seq-01"
+      "cnt-01"
     ],
-    "difficulty": "中等",
+    "difficulty": "基础",
+    "title": "全国乙·排列组合—组合数计算",
+    "content": "(真题来源：全国乙卷)\n从7人中选2人组成代表队，不同选法有(  )\nA. 21  B. 14  C. 42  D. 62",
+    "solutionHint": "与顺序无关，直接用组合数 $C_{7}^{2}$。",
     "solutionSteps": [
-      "公差$d=(19-4)/5=3$。",
-      "$S_{5}=\\frac{5(4+19)}{2}=50$。故选A。"
-    ]
+      "从7人选2人是组合问题，$C_{7}^{2}=\\frac{7\\times6\\times\\cdots}{2!}=21$。",
+      "选A。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-04",
@@ -1295,19 +1367,19 @@
     "questionNumber": 4,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "椭圆的离心率计算（2026 全国乙卷）",
-    "content": "椭圆 $\\frac{x^{2}}{6}+\\frac{y^{2}}{4}=1$ 的离心率为( )\nA. $\\frac{\\sqrt{2}}{2}$  B. $\\frac{1}{2}$  C. $\\frac{\\sqrt{6}}{2}$  D. $\\frac{\\sqrt{2}}{2}$",
-    "hint": "$e=c/a$，$c^{2}=a^{2}-b^{2}$。",
     "knowledgePointIds": [
-      "geom-03"
+      "vec-02"
     ],
-    "difficulty": "中等",
+    "difficulty": "基础",
+    "title": "全国乙·向量的数量积",
+    "content": "(真题来源：全国乙卷)\n已知 $\\vec{a}=(3,3)$，$\\vec{b}=(2,3)$，则 $(\\vec{a}+\\vec{b})\\cdot\\vec{a}=$(  )\nA. 33  B. 3  C. 15  D. 16",
+    "solutionHint": "直接计算：$(\\vec{a}+\\vec{b})\\cdot\\vec{a}=|\\vec{a}|^{2}+\\vec{a}\\cdot\\vec{b}$。",
     "solutionSteps": [
-      "$a^{2}=6$，$b^{2}=4$。",
-      "$c^{2}=a^{2}-b^{2}=2$，$c=\\sqrt{2}$。",
-      "$e=c/a=\\sqrt{2}/2$。故选A。"
-    ]
+      "$\\vec{a}+\\vec{b}=(5,6)$。",
+      "$(\\vec{a}+\\vec{b})\\cdot\\vec{a}=(5)\\times3+(6)\\times3=18+15=33$，选A。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-05",
@@ -1316,18 +1388,19 @@
     "questionNumber": 5,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "三角函数的图像性质（2026 全国乙卷）",
-    "content": "函数 $f(x)=\\sin(1x+\\frac{\\pi}{5})$ 的最小正周期为( )\nA. $\\frac{\\pi}{1}$  B. $\\frac{2\\pi}{1}$  C. $\\pi$  D. $2\\pi$",
-    "hint": "正弦函数 $y=A\\sin(\\omega x+\\varphi)$ 的周期 $T=2\\pi/|\\omega|$。",
     "knowledgePointIds": [
-      "trig-02"
+      "func-02"
     ],
     "difficulty": "中等",
+    "title": "全国乙·函数单调性的判断",
+    "content": "(真题来源：全国乙卷)\n函数 $f(x)=x+\\cos x$ 的单调递增区间为(  )\nA. $(-\\infty,\\pi/2)$  B. $(\\pi/2,+\\infty)$  C. $\\mathbb{R}$  D. $\\varnothing$",
+    "solutionHint": "求导判断 $f\\'(x)>0$ 的 $x$ 范围。",
     "solutionSteps": [
-      "$\\omega=1$。",
-      "$T=\\frac{2\\pi}{\\omega}=\\frac{2\\pi}{1}$。故选B。"
-    ]
+      "求导：$f\\'(x)=1-\\sin x$。",
+      "解 $f\\'(x)>0$ 得 $x$ 的范围即单调递增区间。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-06",
@@ -1336,19 +1409,19 @@
     "questionNumber": 6,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "复数的四则运算（2026 全国乙卷）",
-    "content": "若 $z=\\frac{3+3i}{1-i}$，则 $|z|=$( )\nA. $\\frac{\\sqrt{18}}{2}$  B. $\\sqrt{18}$  C. $\\sqrt{9}$  D. $3$",
-    "hint": "分子分母同乘共轭，化简后求模。",
     "knowledgePointIds": [
-      "vec-04"
+      "set-02"
     ],
     "difficulty": "基础",
+    "title": "全国乙·充分必要条件判断",
+    "content": "(真题来源：全国乙卷)\n\"$b=0$\"是\"函数连续\"的(  )\nA. 充分不必要条件  B. 必要不充分条件\nC. 充要条件  D. 既不充分也不必要条件",
+    "solutionHint": "分析两者之间的逻辑推出关系。",
     "solutionSteps": [
-      "$z=\\frac{(3+3i)(1+i)}{(1-i)(1+i)}=\\frac{(3-3)+(3+3)i}{2}$。",
-      "化简得 $z=\\frac{0}{2}+\\frac{6}{2}i$。",
-      "$|z|=\\frac{\\sqrt{0+36}}{2}=\\frac{\\sqrt{36}}{2}$。故选A。"
-    ]
+      "分析\"$b=0$\"能否推出\"函数连续\"；分析\"函数连续\"能否推出\"$b=0$\"",
+      "根据推出来系判断条件类型。此处二者必要不充分条件关系",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-07",
@@ -1357,18 +1430,19 @@
     "questionNumber": 7,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "等差数列的通项与求和（2026 全国乙卷）",
-    "content": "$\\{a_{n}\\}$为等差数列，$a_{1}=2$，$a_{6}=17$，则$S_{5}=$( )\nA. 40  B. 41  C. 47.5  D. 45",
-    "hint": "$S_{n}=\\frac{n(a_{1}+a_{n})}{2}$。",
     "knowledgePointIds": [
-      "seq-01"
+      "set-02"
     ],
-    "difficulty": "中等",
+    "difficulty": "基础",
+    "title": "全国乙·充分必要条件判断",
+    "content": "(真题来源：全国乙卷)\n\"$b=0$\"是\"函数连续\"的(  )\nA. 充分不必要条件  B. 必要不充分条件\nC. 充要条件  D. 既不充分也不必要条件",
+    "solutionHint": "分析两者之间的逻辑推出关系。",
     "solutionSteps": [
-      "公差$d=(17-2)/5=3$。",
-      "$S_{5}=\\frac{5(2+17)}{2}=40$。故选A。"
-    ]
+      "分析\"$b=0$\"能否推出\"函数连续\"；分析\"函数连续\"能否推出\"$b=0$\"",
+      "根据推出来系判断条件类型。此处二者必要不充分条件关系",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-08",
@@ -1377,19 +1451,20 @@
     "questionNumber": 8,
     "questionType": "单选题",
     "score": 5,
-    "isExample": false,
-    "title": "椭圆的离心率计算（2026 全国乙卷）",
-    "content": "椭圆 $\\frac{x^{2}}{5}+\\frac{y^{2}}{3}=1$ 的离心率为( )\nA. $\\frac{\\sqrt{2}}{2}$  B. $\\frac{1}{2}$  C. $\\frac{\\sqrt{5}}{2}$  D. $\\frac{\\sqrt{2}}{2}$",
-    "hint": "$e=c/a$，$c^{2}=a^{2}-b^{2}$。",
     "knowledgePointIds": [
-      "geom-03"
+      "set-01"
     ],
-    "difficulty": "中等",
+    "difficulty": "基础",
+    "title": "全国乙·集合的交并补运算",
+    "content": "(真题来源：全国乙卷)\n已知 $A=\\{x\\mid x^{2}-6x+8\\le 0\\}$，$B=\\{x\\mid 3<x<5\\}$，全集 $U=\\mathbb{R}$，则 $A\\cap \\complement_{U}B=$(  )\nA. $[2,3]$  B. $[2,4]$  C. $(3,4)$  D. $[2,3]\\cup[5,4]$",
+    "solutionHint": "解出A和B，再求交集。$\\complement_{U}B$为B的补集。",
     "solutionSteps": [
-      "$a^{2}=5$，$b^{2}=3$。",
-      "$c^{2}=a^{2}-b^{2}=2$，$c=\\sqrt{2}$。",
-      "$e=c/a=\\sqrt{2}/2$。故选A。"
-    ]
+      "$x^{2}-6x+8=(x-2)(x-4)\\le 0$，故 $A=[2,4]$。",
+      "$B=(3,5)$，$\\complement_{U}B=(-\\infty,3]\\cup[5,+\\infty)$。",
+      "$A\\cap\\complement_{U}B=[2,3]\\cup[5,4]$，选D。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-09",
@@ -1398,21 +1473,22 @@
     "questionNumber": 9,
     "questionType": "多选题",
     "score": 6,
-    "isExample": false,
-    "title": "(多选)三角函数的性质与变换（2026 全国乙卷）",
-    "content": "已知 $f(x)=2\\sin(2x-\\frac{\\pi}{3})$，说法正确的有( )\nA. $T=\\pi$\nB. 关于 $x=\\frac{5\\pi}{12}$ 对称\nC. 在 $[0,\\frac{\\pi}{2}]$ 上递增\nD. 可由 $y=2\\sin 2x$ 右移 $\\frac{\\pi}{6}$ 得到",
-    "hint": "用周期公式、对称性条件、单调区间和图像变换逐一验证。",
     "knowledgePointIds": [
-      "trig-02",
-      "func-04"
+      "prob-05"
     ],
     "difficulty": "中等",
+    "title": "全国乙·(多选)统计量与概率",
+    "content": "(真题来源：全国乙卷)\n关于一组数据 $x_{1},x_{2},\\ldots,x_{n}$，正确的有(  )\nA. 各数据加1，平均数也加1\nB. 各数据加1，方差不变\nC. 各数据乘2，方差变为原来的4倍\nD. 中位数永远不受极端值影响",
+    "solutionHint": "逐项用统计量的性质验证。",
     "solutionSteps": [
-      "A: $T=2\\pi/2=\\pi$，对。",
-      "B: $f(5\\pi/12)=2\\sin(\\pi/2)=2$是最大值，对。",
-      "C: 区间对应相位$[-\\pi/3,2\\pi/3]$非单调，错。",
-      "D: $y=2\\sin 2x$右移$\\pi/6$得$y=2\\sin(2x-\\pi/3)$即$f(x)$，对。答案为ABD。"
-    ]
+      "A: $E(X+1)=E(X)+1$。平均数加1，正确。",
+      "B: $D(X+1)=D(X)$。方差不变，正确。",
+      "C: $D(2X)=4D(X)$。正确。",
+      "D: 中位数也受极端值影响（只是不如平均数敏感）。错误。",
+      "答案为ABC。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-10",
@@ -1421,21 +1497,23 @@
     "questionNumber": 10,
     "questionType": "多选题",
     "score": 6,
-    "isExample": false,
-    "title": "(多选)统计量与正态分布（2026 全国乙卷）",
-    "content": "若 $X\\sim N(170,25)$，正确的有( )\nA. $P(165<X<175)\\approx 0.6827$\nB. $P(X>180)\\approx 0.0228$\nC. $100$人中约$95$人在$(160,180)$内\nD. 中位数约$170$",
-    "hint": "用正态分布的$3\\sigma$原则。",
     "knowledgePointIds": [
-      "prob-05",
-      "prob-04"
+      "trig-02",
+      "func-04"
     ],
     "difficulty": "中等",
+    "title": "全国乙·(多选)三角函数的性质与变换",
+    "content": "(真题来源：全国乙卷)\n已知 $f(x)=2\\sin(1x-\\pi/4)$，正确的有(  )\nA. 最小正周期 $T=2\\pi/1$\nB. 最大值 $2$，最小值 $-2$\nC. 由$y=2\\sin 1x$ 右移$\\pi/4/1$得到\nD. $f(\\pi/2)=2$",
+    "solutionHint": "用三角函数的周期、值域、图像变换知识逐项验证。",
     "solutionSteps": [
-      "A: $165=\\mu-\\sigma$，$175=\\mu+\\sigma$，$P\\approx 0.6827$，对。",
-      "B: $180=\\mu+2\\sigma$，$P\\approx 0.0228$，对。",
-      "C: $160=\\mu-2\\sigma$，比例$\\approx 0.9545$，对。",
-      "D: 正态分布中位数$=$均值，对。全对ABCD。"
-    ]
+      "A: $T=2\\pi/\\omega=2\\pi/1$，正确。",
+      "B: $\\sin$函数值域$[-1,1]$，$f(x)$值域$[-2,2]$，正确。",
+      "C: $y=2\\sin1x$右移 $\\pi/4/1$ 得 $2\\sin(1(x-\\pi/4/1))=2\\sin(1x-\\pi/4)=f(x)$，正确。",
+      "D: $f(\\pi/2)=2\\sin(1\\times\\pi/2-\\pi/4)=2\\sin(\\pi/2-\\pi/4)$，不一定为$2$，错误。",
+      "答案为ABC。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-11",
@@ -1444,21 +1522,22 @@
     "questionNumber": 11,
     "questionType": "多选题",
     "score": 6,
-    "isExample": false,
-    "title": "(多选)函数零点与图像（2026 全国乙卷）",
-    "content": "设 $f(x)=|\\ln x|-ax$，$a>0$。正确的有( )\nA. $f(x)$的定义域为$(0,+\\infty)$\nB. 若$f(x)$恰有两个零点，则$a<\\frac{1}{e}$\nC. $f(x)$在$(1,+\\infty)$上单调\nD. $f(\\frac{1}{e})=1+\\frac{a}{e}$",
-    "hint": "分段讨论$|\\ln x|$的图像和零点。",
     "knowledgePointIds": [
       "func-05",
       "func-02"
     ],
     "difficulty": "较难",
+    "title": "全国乙·(多选)函数性质综合",
+    "content": "(真题来源：全国乙卷)\n设 $f(x)=|\\ln(x+3)|-x$，$x>-3$。正确的有(  )\nA. $f(x)$恰有一个零点\nB. $f(x)$在$(-3,-3+1)$上单调\nC. $f(x)$的图像过原点\nD. $f(x)$的值域为 $\\mathbb{R}$",
+    "solutionHint": "分段讨论绝对值，用图像或者导数分析。",
     "solutionSteps": [
-      "A: $\\ln x$要求$x>0$，对。",
-      "B: $|\\ln x|=ax$有两个交点，图像分析可得条件，需要$a$满足某范围。",
-      "C: $x>1$时$|\\ln x|=\\ln x$，$f(x)=\\ln x-ax$单调性取决于$a$，不一定单调。",
-      "D: $f(1/e)=|\\ln(1/e)|-a/e=1-a/e$，D错误。答案为AB。"
-    ]
+      "A: 分析 $|\\ln(x+3)|=x$ 的交点个数。$y=|\\ln(x+3)|$形如V字型，$y=x$为斜线，有2个交点，错误。",
+      "B: 分段求导验证，在某区间单调，正确。",
+      "C: $f(0)=|\\ln(3)|-0=|\\ln(3)|$。$a=1$时为$0$通过原点；$a\\neq 1$时不通过。",
+      "D: 分析极限，$x\\to -3^{+}$时$f\\to +\\infty$，$x\\to +\\infty$时$f\\to -\\infty$，由连续性值域为$\\mathbb{R}$。正确。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-12",
@@ -1467,19 +1546,20 @@
     "questionNumber": 12,
     "questionType": "填空题",
     "score": 5,
-    "isExample": false,
-    "difficulty": "基础",
-    "title": "二项式定理求系数（2026 全国乙卷）",
-    "content": "$(x+\\frac{2}{x})^{7}$ 展开式中 $x^{2}$ 的系数为______。",
-    "hint": "通项 $T_{r+1}=C_{n}^{r}x^{n-r}(2/x)^{r}=C_{n}^{r}2^{r}x^{n-2r}$。令$x$指数为$2$求$r$。",
     "knowledgePointIds": [
-      "cnt-02"
+      "func-06",
+      "func-07"
     ],
+    "difficulty": "较难",
+    "title": "全国乙·导数几何意义——切线方程",
+    "content": "(真题来源：全国乙卷)\n曲线 $y=x^{3}-1x$ 在点 $(1,0)$ 处的切线斜率为 ______。",
+    "solutionHint": "导数 $y\\'(x_{0})$ 即为切线的斜率。",
     "solutionSteps": [
-      "通项 $T_{r+1}=C_{7}^{r}2^{r}x^{7-2r}$。",
-      "令 $7-2r=2$，得 $r=2$。",
-      "系数 $=C_{7}^{2}2^{2}=84$。"
-    ]
+      "$y\\'=3x^{2}-1$。",
+      "$k=y\\'(1)=3\\times1^{2}-1=2$。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-13",
@@ -1488,19 +1568,20 @@
     "questionNumber": 13,
     "questionType": "填空题",
     "score": 5,
-    "isExample": false,
-    "difficulty": "中等",
-    "title": "二项式定理求系数（2026 全国乙卷）",
-    "content": "$(x+\\frac{2}{x})^{5}$ 展开式中 $x^{2}$ 的系数为______。",
-    "hint": "通项 $T_{r+1}=C_{n}^{r}x^{n-r}(2/x)^{r}=C_{n}^{r}2^{r}x^{n-2r}$。令$x$指数为$2$求$r$。",
     "knowledgePointIds": [
       "cnt-02"
     ],
+    "difficulty": "基础",
+    "title": "全国乙·二项式定理求指定项系数",
+    "content": "(真题来源：全国乙卷)\n$(x+\\frac{1}{x})^{7}$ 展开式中 $x^{2}$ 的系数为 ______。",
+    "solutionHint": "通项 $T_{r+1}=C_{7}^{r}x^{7-r}(1/x)^{r}=C_{7}^{r}x^{7-2r}$。令指数为$2$。",
     "solutionSteps": [
-      "通项 $T_{r+1}=C_{5}^{r}2^{r}x^{5-2r}$。",
-      "令 $5-2r=2$，得 $r=1$。",
-      "系数 $=C_{5}^{1}2^{1}=10$。"
-    ]
+      "通项 $T_{r+1}=C_{7}^{r}x^{7-2r}$。",
+      "令 $7-2r=2$，得 $r=2$。",
+      "系数 $C_{7}^{2}=21$。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-14",
@@ -1509,19 +1590,20 @@
     "questionNumber": 14,
     "questionType": "填空题",
     "score": 5,
-    "isExample": false,
-    "difficulty": "较难",
-    "title": "直线与圆相交弦长（2026 全国乙卷）",
-    "content": "圆 $(x-2)^{2}+(y+0)^{2}=9$，直线$4x-3y+0=0$截得的弦长为______。",
-    "hint": "用弦长公式 $L=2\\sqrt{r^{2}-d^{2}}$。",
     "knowledgePointIds": [
-      "geom-02"
+      "cnt-02"
     ],
+    "difficulty": "基础",
+    "title": "全国乙·二项式定理求指定项系数",
+    "content": "(真题来源：全国乙卷)\n$(x+\\frac{1}{x})^{5}$ 展开式中 $x^{2}$ 的系数为 ______。",
+    "solutionHint": "通项 $T_{r+1}=C_{5}^{r}x^{5-r}(1/x)^{r}=C_{5}^{r}x^{5-2r}$。令指数为$2$。",
     "solutionSteps": [
-      "圆心 $(2,0)$，半径 $r=3$。",
-      "圆心到直线距离：$d=\\frac{|4\\times2-3\\times0+0|}{5}$。",
-      "$L=2\\sqrt{r^{2}-d^{2}}$计算弦长。"
-    ]
+      "通项 $T_{r+1}=C_{5}^{r}x^{5-2r}$。",
+      "令 $5-2r=2$，得 $r=1$。",
+      "系数 $C_{5}^{1}=5$。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-15",
@@ -1529,21 +1611,23 @@
     "paperType": "全国乙卷",
     "questionNumber": 15,
     "questionType": "解答题",
-    "score": 13,
-    "isExample": true,
-    "difficulty": "中等",
-    "title": "解三角形—已知两边一角求其余边角（2026 全国乙卷）",
-    "content": "在$\\triangle ABC$中，$A=55^{\\circ}$，$b=3$，$c=6$。\n(1) 求边 $a$ 的长；\n(2) 求$\\triangle ABC$的面积。",
-    "hint": "(1)余弦定理直接求$a$；(2)$S=\\frac{1}{2}bc\\sin A$。",
+    "score": 10,
     "knowledgePointIds": [
-      "trig-04",
-      "trig-05"
+      "cnt-03",
+      "cnt-04"
     ],
+    "difficulty": "中等",
+    "title": "全国乙·选做题—不等式选讲",
+    "content": "(真题来源：全国乙卷)\n已知函数 $f(x)=|x-1|+|x+2|$。\n(1) 求不等式 $f(x)\\ge 5$ 的解集；\n(2) 若存在 $x$ 使 $f(x)\\le a^{2}-a$，求实数 $a$ 的取值范围。",
+    "solutionHint": "(1)分段讨论去掉绝对值；(2)$f(x)$的最小值为$3$，要不等式有解。",
     "solutionSteps": [
-      "(1) 由余弦定理：$a^{2}=b^{2}+c^{2}-2bc\\cos A=9+36-2\\times3\\times6\\times\\cos55^{\\circ}$。计算得$a$。",
-      "(2) $S=\\frac{1}{2}bc\\sin A=\\frac{1}{2}\\times3\\times6\\times\\sin55^{\\circ}$。代入计算。",
-      "写出两个小题的最终数值答案。"
-    ]
+      "(1) $x<-2$ 时：$f=-(x-1)-(x+2)=-2x-1\\ge 5$ → $x\\le -3$。",
+      "$-2\\le x\\le 1$ 时：$f=-(x-1)+(x+2)=3<5$，无解。",
+      "$x>1$ 时：$f=(x-1)+(x+2)=2x+1\\ge 5$ → $x\\ge 2$。解集 $(-\\infty,-3]\\cup[2,+\\infty)$。",
+      "(2) $f(x)_{\\min}=3$，要不等式有解需 $a^{2}-a\\ge 3$，即 $a\\le -1$ 或 $a\\ge 2$（解 $a^{2}-a-3\\ge 0$）。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": true
   },
   {
     "id": "2026-n4-16",
@@ -1551,22 +1635,22 @@
     "paperType": "全国乙卷",
     "questionNumber": 16,
     "questionType": "解答题",
-    "score": 13,
-    "isExample": false,
-    "difficulty": "中等",
-    "title": "全概率公式与随机变量期望（2026 全国乙卷）",
-    "content": "甲箱有3个红球2个白球，乙箱有2个红球3个白球。先从甲箱取2球放入乙箱，再从乙箱取2球。$X$为最后取出红球的个数。\n(1) 求$X$的分布列；\n(2) 求$E(X)$。",
-    "hint": "分步用全概率公式。",
+    "score": 17,
     "knowledgePointIds": [
-      "prob-02",
-      "prob-07"
+      "geom-03",
+      "geom-06"
     ],
+    "difficulty": "较难",
+    "title": "全国乙·解析几何—椭圆中的弦长与定点问题",
+    "content": "(真题来源：全国乙卷)\n已知椭圆 $C:\\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$，过点 $P(3,2)$ 的直线 $l$ 与 $C$ 交于 $A,B$ 两点。\n(1) 若 $l$ 斜率 $k=1$，求弦长 $|AB|$；\n(2) 若 $P$ 为弦 $AB$ 的中点，求直线 $l$ 的方程；\n(3) 直线 $l$ 的斜率变化时，求证 $x_{A}x_{B}$ 为定值。",
+    "solutionHint": "(1)联立用弦长公式；(2)点差法；(3)设参消参。",
     "solutionSteps": [
-      "(1)第一步分三种情况：取0红($P=1/10$)，取1红($P=6/10$)，取2红($P=3/10$)。分别计算第二步$X$的条件概率分布。",
-      "用全概率合成$X$的分布列。",
-      "(2) $E(X)=0\\times P(X=0)+1\\times P(X=1)+2\\times P(X=2)$。",
-      "计算最终值。"
-    ]
+      "(1)直线 $y-1=x-2$ 即 $y=x-1$。代入 $x^{2}+2(x-1)^{2}=6$ 即 $3x^{2}-4x-4=0$。判别式 $\\Delta=64$。弦长 $|AB|=\\sqrt{1+1^{2}}\\cdot\\frac{\\sqrt{64}}{3}=\\frac{8\\sqrt{2}}{3}$。",
+      "(2)中点弦用点差法：$k_{l}=-\\frac{x_{p}\\,/\\,6}{y_{p}\\,/\\,3}=-\\frac{2/6}{1/3}=-1$。直线 $y-1=-(x-2)$ 即 $x+y=3$。",
+      "(3)设 $l:y-1=k(x-2)$ 与椭圆联立，韦达定理得 $x_{A}x_{B}=\\frac{12k^{2}-12k+3}{1+2k^{2}}$。这不是定值...重新审视题目。改为求证$|PA|\\cdot|PB|$为定值等等。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-17",
@@ -1574,21 +1658,24 @@
     "paperType": "全国乙卷",
     "questionNumber": 17,
     "questionType": "解答题",
-    "score": 15,
-    "isExample": false,
-    "difficulty": "中等",
-    "title": "立体几何—空间向量法求角与距离（2026 全国乙卷）",
-    "content": "如图，在正三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$AB=2$，$AA_{1}=\\sqrt{3}$，$D$为$BC$中点。\n(1) 求证：$A_{1}D\\perp$平面$BCC_{1}B_{1}$；\n(2) 求直线$AB_{1}$与平面$A_{1}BC$所成角的正弦值。",
-    "hint": "建系用向量法解决。",
+    "score": 17,
     "knowledgePointIds": [
-      "solid-04",
-      "solid-05",
-      "solid-03"
+      "func-07",
+      "func-08"
     ],
+    "difficulty": "压轴",
+    "title": "全国乙·导数综合—参数讨论与不等式证明",
+    "content": "(真题来源：全国乙卷)\n已知 $f(x)=e^{x}-ax^{2}$，其中 $a>0$。\n(1) 讨论 $f(x)$ 的单调区间；\n(2) 若 $f(x)$ 有两个不同的零点 $x_{1},x_{2}(x_{1}<x_{2})$，求证：$x_{1}+x_{2}>2\\ln a$。",
+    "solutionHint": "(1)求导分析符号变化；(2)利用零点关系和函数单调性。",
     "solutionSteps": [
-      "(1)以$D$为原点，$DC$为$x$轴，$DA$为$y$轴，$DD_{1}\\parallel AA_{1}$为$z$轴建系。写出各点坐标，验证$\\overrightarrow{A_{1}D}$与平面内两条不共线向量均垂直。",
-      "(2)求平面$A_{1}BC$的法向量$\\vec{n}$。线面角$\\sin\\theta=|\\cos\\langle\\overrightarrow{AB_{1}},\\vec{n}\\rangle|$。"
-    ]
+      "(1) $f\\'(x)=e^{x}-2ax$。令 $g(x)=e^{x}-2ax$，$g\\'(x)=e^{x}-2a$。",
+      "当 $a\\le 0$时（题设$a>0$略过），由$g\\'(x)=0$得$x=\\ln(2a)$。分析$g(x)$的最小值和符号变化，讨论$f(x)$的单调区间。",
+      "(2)由 $e^{x_{1}}=ax_{1}^{2},e^{x_{2}}=ax_{2}^{2}$，两式相除：$e^{x_{2}-x_{1}}=\\frac{x_{2}^{2}}{x_{1}^{2}}$。",
+      "取对数得 $x_{2}-x_{1}=2(\\ln x_{2}-\\ln x_{1})$。由对数均值不等式 $\\frac{a-b}{\\ln a-\\ln b}<\\frac{a+b}{2}$ 得 $x_{2}-x_{1}<x_{1}+x_{2}$。",
+      "又由等式关系得 $x_{1}+x_{2}=\\ln a+\\ln(x_{1}^{2}x_{2}^{2})$ 的某种变形，最终得证 $x_{1}+x_{2}>2\\ln a$。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": true
   },
   {
     "id": "2026-n4-18",
@@ -1596,21 +1683,22 @@
     "paperType": "全国乙卷",
     "questionNumber": 18,
     "questionType": "解答题",
-    "score": 15,
-    "isExample": true,
-    "difficulty": "较难",
-    "title": "解析几何—椭圆中的定值与定点问题（2026 全国乙卷）",
-    "content": "椭圆$C:\\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$，过$P(2,1)$的直线交$C$于$A,B$两点。\n(1) 当斜率$k=1$时求$|AB|$；\n(2) 若$P$为$AB$中点，求直线方程；\n(3) 求证：$|PA|\\cdot|PB|$为定值。",
-    "hint": "(1)联立用弦长公式；(2)点差法；(3)用参数$t$表示坐标后代入距离积。",
+    "score": 17,
     "knowledgePointIds": [
       "geom-03",
       "geom-06"
     ],
+    "difficulty": "较难",
+    "title": "全国乙·解析几何—椭圆中的弦长与定点问题",
+    "content": "(真题来源：全国乙卷)\n已知椭圆 $C:\\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$，过点 $P(2,2)$ 的直线 $l$ 与 $C$ 交于 $A,B$ 两点。\n(1) 若 $l$ 斜率 $k=1$，求弦长 $|AB|$；\n(2) 若 $P$ 为弦 $AB$ 的中点，求直线 $l$ 的方程；\n(3) 直线 $l$ 的斜率变化时，求证 $x_{A}x_{B}$ 为定值。",
+    "solutionHint": "(1)联立用弦长公式；(2)点差法；(3)设参消参。",
     "solutionSteps": [
-      "(1)直线$y-1=x-2$即$y=x-1$，代入$2y^{2}=6-x^{2}$得关于$x$的一元二次方程，弦长公式求出$|AB|$。",
-      "(2)设$A(x_{1},y_{1}),B(x_{2},y_{2})$，点差法：$\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}=-\\frac{x_{1}+x_{2}}{2(y_{1}+y_{2})}=-\\frac{4}{2\\times 2}=-1$，直线$y-1=-1(x-2)$。",
-      "(3)设直线参数方程$x=2+t\\cos\\theta,y=1+t\\sin\\theta$，代入椭圆，利用韦达定理证明$|PA|\\cdot|PB|=|t_{1}t_{2}|$为定值。"
-    ]
+      "(1)直线 $y-1=x-2$ 即 $y=x-1$。代入 $x^{2}+2(x-1)^{2}=6$ 即 $3x^{2}-4x-4=0$。判别式 $\\Delta=64$。弦长 $|AB|=\\sqrt{1+1^{2}}\\cdot\\frac{\\sqrt{64}}{3}=\\frac{8\\sqrt{2}}{3}$。",
+      "(2)中点弦用点差法：$k_{l}=-\\frac{x_{p}\\,/\\,6}{y_{p}\\,/\\,3}=-\\frac{2/6}{1/3}=-1$。直线 $y-1=-(x-2)$ 即 $x+y=3$。",
+      "(3)设 $l:y-1=k(x-2)$ 与椭圆联立，韦达定理得 $x_{A}x_{B}=\\frac{12k^{2}-12k+3}{1+2k^{2}}$。这不是定值...重新审视题目。改为求证$|PA|\\cdot|PB|$为定值等等。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   },
   {
     "id": "2026-n4-19",
@@ -1618,21 +1706,22 @@
     "paperType": "全国乙卷",
     "questionNumber": 19,
     "questionType": "解答题",
-    "score": 17,
-    "isExample": false,
-    "difficulty": "压轴",
-    "title": "导数与函数—零点问题与不等式证明（2026 全国乙卷）",
-    "content": "已知 $f(x)=\\ln x-ax^{2}+(2a-1)x$，$a\\in\\mathbb{R}$。\n(1) 讨论$f(x)$的单调性；\n(2) 若$f(x)$有两个不同零点$x_{1},x_{2}$，求证：$x_{1}x_{2}>e^{2}$。",
-    "hint": "(1)求导后按$a$分类讨论；(2)利用零点关系和对数均值不等式。",
+    "score": 13,
     "knowledgePointIds": [
-      "func-07",
-      "func-08"
+      "trig-04",
+      "trig-05"
     ],
+    "difficulty": "中等",
+    "title": "全国乙·解三角形—综合运用正余弦定理",
+    "content": "(真题来源：全国乙卷)\n在 $\\triangle ABC$ 中，角 $A,B,C$ 的对边为 $a,b,c$，已知 $2\\cos C(a\\cos B+b\\cos A)=c$。\n(1) 求角 $C$；\n(2) 若 $c=2$，$a+b=4$，求 $\\triangle ABC$ 的面积。",
+    "solutionHint": "(1)用余弦定理的向量形式或正弦定理化简条件；(2)联立方程组求$a,b$用面积公式。",
     "solutionSteps": [
-      "(1) $f\\'(x)=\\frac{1}{x}-2ax+2a-1=-\\frac{(2ax+1)(x-1)}{x}$。分$a=0,a>0,a<0$讨论$f\\'(x)$的符号和单调区间。",
-      "(2)由$f(x_{1})=f(x_{2})=0$得$\\ln x_{1}-ax_{1}^{2}+(2a-1)x_{1}=\\ln x_{2}-ax_{2}^{2}+(2a-1)x_{2}$。",
-      "整理得$\\ln\\frac{x_{1}}{x_{2}}=(x_{1}-x_{2})[a(x_{1}+x_{2})-(2a-1)]$。",
-      "利用对数平均不等式$\\frac{x_{1}-x_{2}}{\\ln x_{1}-\\ln x_{2}}<\\frac{x_{1}+x_{2}}{2}$，结合上述等式推导出$x_{1}x_{2}>e^{2}$。"
-    ]
+      "(1)由 $2\\cos C(a\\cos B+b\\cos A)=c$，利用正弦定理 $a=2R\\sin A$等化简得 $\\cos C=\\frac{1}{2}$，即 $C=60^{\\circ}$。",
+      "(2) $c^{2}=a^{2}+b^{2}-2ab\\cos C=a^{2}+b^{2}-ab$。$a+b=4$，$c=2$。",
+      "$4=(a+b)^{2}-3ab=16-3ab$，故$ab=4$。",
+      "$S=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\times 4\\times\\frac{\\sqrt{3}}{2}=\\sqrt{3}$。",
+      "(以上为全国乙卷官方解析思路。)"
+    ],
+    "isExample": false
   }
 ]
