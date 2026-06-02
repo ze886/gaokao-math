@@ -1,4 +1,5 @@
 import type { Question, KnowledgePoint } from '../../types';
+import { MathText } from '../shared/MathText';
 import { Badge } from '../shared/Badge';
 import { Chip } from '../shared/Chip';
 
@@ -20,7 +21,7 @@ export function QuestionRow({ question, kpMap, onSelect }: QuestionRowProps) {
       </td>
       <td className="px-4 py-3 text-sm text-gray-600">{question.questionType}</td>
       <td className="px-4 py-3">
-        <div className="flex flex-wrap gap-1">
+        <div className="flex flex-wrap gap-1 max-w-[220px]">
           {question.knowledgePointIds.map((kpId) => {
             const kp = kpMap.get(kpId);
             return kp ? (
@@ -29,13 +30,13 @@ export function QuestionRow({ question, kpMap, onSelect }: QuestionRowProps) {
           })}
         </div>
       </td>
-      <td className="px-4 py-3 text-sm text-gray-900 font-medium max-w-xs truncate">
-        {question.title}
+      <td className="px-4 py-3 text-sm text-gray-900 font-medium max-w-xs">
+        <MathText text={question.title} />
       </td>
       <td className="px-4 py-3 text-sm text-gray-500 w-12">{question.score}分</td>
       <td className="px-4 py-3">
-        <button className="text-xs text-indigo-600 hover:text-indigo-800 font-medium">
-          详情
+        <button className="text-xs text-indigo-600 hover:text-indigo-800 font-medium whitespace-nowrap">
+          详情 ▶
         </button>
       </td>
     </tr>

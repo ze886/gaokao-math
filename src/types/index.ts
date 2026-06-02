@@ -38,6 +38,8 @@ export interface Question {
   title: string;
   content: string;
   solutionHint: string;
+  solutionSteps?: string[];
+  forecastNote?: string;
   isExample: boolean;
 }
 
